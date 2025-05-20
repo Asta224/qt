@@ -1,0 +1,4 @@
+/home/thukha/qtcreator/QListWIdget/build/CMakeFiles/QListWIdget.dir
+/home/thukha/qtcreator/QListWIdget/build/CMakeFiles/edit_cache.dir
+/home/thukha/qtcreator/QListWIdget/build/CMakeFiles/rebuild_cache.dir
+/home/thukha/qtcreator/QListWIdget/build/CMakeFiles/QListWIdget_autogen.dir
