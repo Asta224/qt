@@ -282,6 +282,7 @@ CMakeFiles/login.dir/main.cpp.o: /home/thukha/qtcreator/login/main.cpp \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QDialog \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h \
  /home/thukha/qtcreator/login/service.h \
+ /home/thukha/qtcreator/login/mainwindow.h \
  /home/thukha/qtcreator/login/function.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMessageBox \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmessagebox.h \

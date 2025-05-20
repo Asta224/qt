@@ -11,6 +11,7 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
     // ui->logoLabel->setPixmap(QPixmap(":/image2.jpg"));
+    ui->currentDateTime->setStyleSheet("QLabel { color: white; }");
     ui->logoLabel->setStyleSheet("image: url(:/image2.jpg);");
     this->setStyleSheet("#centralwidget{border-image: url(:image.jpeg) 0 0 0 0 stretch stretch;}"
                         "#loginForm { border: 1px solid black; background: rgba(0, 0, 0, 80);border-radius: 8px; }"
@@ -21,7 +22,7 @@ MainWindow::MainWindow(QWidget *parent)
                         "QPushButton{color: white;background-color: #27a9e3;border-width: 0px;border-radius: 3px;}"
                         "QPushButton:hover { background-color: #66c011; }");
     QDateTime *time = new QDateTime(QDateTime::currentDateTime());
-    qDebug() << "Current time:" << time->toString("dddd dd-M-yy hh:mm");
+    // qDebug() << "Current time:" << time->toString("dddd dd-M-yy hh:mm");
     ui->currentDateTime->setText(time->toString("dddd dd-M-yy hh:mm"));
 }
 MainWindow::~MainWindow()
@@ -40,21 +41,23 @@ void MainWindow::check_password()
     QString input_name = ui->usernameEdit->text();
     QString input_pass = ui->passwordEdit->text();
 
-    if( input_name == "topic" || input_pass== "topic")
+    if( input_name == "topic" && input_pass== "topic")
+    {   
+        this->hide();
+        topic *t_opic = new topic(this);
+        t_opic->show();
+
+    } else if (input_name == "service" && input_pass== "service")
     {
-        topic topic_dialog;
-        topic_dialog.setModal(true);
-        topic_dialog.exec();
-    } else if (input_name == "service" || input_pass== "service")
+        this->hide();
+        service *s_ervice = new service(this);
+        s_ervice->show();
+
+    } else if (input_name == "function" && input_pass== "function")
     {
-        service service_dialog;
-        service_dialog.setModal(true);
-        service_dialog.exec();
-    } else if (input_name == "function" || input_pass== "function")
-    {
-        function function_dialog;
-        function_dialog.setModal(true);
-        function_dialog.exec();
+        this->hide();
+        function *f_unction = new function(this);
+        f_unction->show();
     } else
     {
         QMessageBox::warning(this, "Error", "Invalid username or password");

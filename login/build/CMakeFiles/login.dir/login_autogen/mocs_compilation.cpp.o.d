@@ -267,7 +267,6 @@ CMakeFiles/login.dir/login_autogen/mocs_compilation.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qkeysequence.h \
- /home/thukha/qtcreator/login/build/login_autogen/EWIEGA46WW/moc_mainwindow.cpp \
  /home/thukha/qtcreator/login/build/login_autogen/EWIEGA46WW/../../../mainwindow.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h \
@@ -284,10 +283,13 @@ CMakeFiles/login.dir/login_autogen/mocs_compilation.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h \
  /home/thukha/qtcreator/login/build/login_autogen/EWIEGA46WW/../../../topic.h \
  /home/thukha/qtcreator/login/build/login_autogen/EWIEGA46WW/../../../service.h \
+ /home/thukha/qtcreator/login/mainwindow.h \
  /home/thukha/qtcreator/login/build/login_autogen/EWIEGA46WW/../../../function.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMessageBox \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmessagebox.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h \
+ /home/thukha/qtcreator/login/build/login_autogen/EWIEGA46WW/moc_mainwindow.cpp \
+ /home/thukha/qtcreator/login/build/login_autogen/EWIEGA46WW/../../../mainwindow.h \
  /home/thukha/qtcreator/login/build/login_autogen/EWIEGA46WW/moc_service.cpp \
  /home/thukha/qtcreator/login/build/login_autogen/EWIEGA46WW/../../../service.h \
  /home/thukha/qtcreator/login/build/login_autogen/EWIEGA46WW/moc_topic.cpp \

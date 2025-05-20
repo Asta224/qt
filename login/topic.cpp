@@ -1,9 +1,10 @@
 #include "topic.h"
 #include "ui_topic.h"
 
-topic::topic(QWidget *parent) :
+topic::topic(QMainWindow *mainwindow,QWidget *parent) :
     QDialog(parent),
-    ui(new Ui::topic)
+    ui(new Ui::topic),
+    m_mainwindow(mainwindow)
 {
     ui->setupUi(this);
 }
@@ -16,5 +17,7 @@ topic::~topic()
 void topic::on_homeBtn_clicked()
 {
     this->close();
+    m_mainwindow->show();
+
 }
 

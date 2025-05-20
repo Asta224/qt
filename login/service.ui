@@ -14,8 +14,7 @@
    <string>Dialog</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">text-color: black;
-</string>
+   <string notr="true">text-color: balck;</string>
   </property>
   <layout class="QVBoxLayout" name="verticalLayout_2">
    <item>

@@ -29,8 +29,8 @@ class Ui_MainWindow
 public:
     QWidget *centralwidget;
     QVBoxLayout *verticalLayout;
-    QWidget *topPanel;
-    QHBoxLayout *topPanel1;
+    QWidget *topPanel_2;
+    QHBoxLayout *topPanel;
     QLabel *currentDateTime;
     QSpacerItem *horizontalSpacer;
     QSpacerItem *verticalSpacer_3;
@@ -62,22 +62,22 @@ public:
         centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
         verticalLayout = new QVBoxLayout(centralwidget);
         verticalLayout->setObjectName(QString::fromUtf8("verticalLayout"));
-        topPanel = new QWidget(centralwidget);
+        topPanel_2 = new QWidget(centralwidget);
+        topPanel_2->setObjectName(QString::fromUtf8("topPanel_2"));
+        topPanel = new QHBoxLayout(topPanel_2);
         topPanel->setObjectName(QString::fromUtf8("topPanel"));
-        topPanel1 = new QHBoxLayout(topPanel);
-        topPanel1->setObjectName(QString::fromUtf8("topPanel1"));
-        topPanel1->setContentsMargins(0, 0, 0, 0);
-        currentDateTime = new QLabel(topPanel);
+        topPanel->setContentsMargins(0, 0, 0, 0);
+        currentDateTime = new QLabel(topPanel_2);
         currentDateTime->setObjectName(QString::fromUtf8("currentDateTime"));
 
-        topPanel1->addWidget(currentDateTime);
+        topPanel->addWidget(currentDateTime);
 
         horizontalSpacer = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
 
-        topPanel1->addItem(horizontalSpacer);
+        topPanel->addItem(horizontalSpacer);
 
 
-        verticalLayout->addWidget(topPanel);
+        verticalLayout->addWidget(topPanel_2);
 
         verticalSpacer_3 = new QSpacerItem(20, 40, QSizePolicy::Minimum, QSizePolicy::Fixed);
 

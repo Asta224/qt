@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "qfile": "cpp",
-        "qapplication": "cpp"
+        "qapplication": "cpp",
+        "qdebug": "cpp"
     }
 }

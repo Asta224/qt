@@ -1,6 +1,7 @@
 /home/thukha/qtcreator/login/build/login_autogen/EWIEGA46WW/moc_mainwindow.cpp: /home/thukha/qtcreator/login/mainwindow.h \
   /home/thukha/qtcreator/login/build/login_autogen/moc_predefs.h \
   /home/thukha/qtcreator/login/function.h \
+  /home/thukha/qtcreator/login/mainwindow.h \
   /home/thukha/qtcreator/login/service.h \
   /home/thukha/qtcreator/login/topic.h \
   /usr/include/asm-generic/errno-base.h \

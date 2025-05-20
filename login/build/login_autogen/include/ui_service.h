@@ -38,8 +38,7 @@ public:
         if (service->objectName().isEmpty())
             service->setObjectName(QString::fromUtf8("service"));
         service->resize(400, 300);
-        service->setStyleSheet(QString::fromUtf8("text-color: black;\n"
-""));
+        service->setStyleSheet(QString::fromUtf8("text-color: balck;"));
         verticalLayout_2 = new QVBoxLayout(service);
         verticalLayout_2->setObjectName(QString::fromUtf8("verticalLayout_2"));
         verticalLayout = new QVBoxLayout();

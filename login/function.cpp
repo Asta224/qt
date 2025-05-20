@@ -1,9 +1,10 @@
 #include "function.h"
 #include "ui_function.h"
 
-function::function(QWidget *parent) :
+function::function(QMainWindow *mainwindow, QWidget *parent) :
     QDialog(parent),
-    ui(new Ui::function)
+    ui(new Ui::function),
+    m_mainwindow(mainwindow)
 {
     ui->setupUi(this);
 }
@@ -16,5 +17,6 @@ function::~function()
 void function::on_homeBtn_clicked()
 {
     this->close();
+    m_mainwindow->show();
 }
 
