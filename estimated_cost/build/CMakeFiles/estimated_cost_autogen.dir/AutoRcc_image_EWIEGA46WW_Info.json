@@ -1,0 +1,26 @@
+{
+	"BUILD_DIR" : "/home/thukha/git/QT/estimated_cost/build/estimated_cost_autogen",
+	"CMAKE_BINARY_DIR" : "/home/thukha/git/QT/estimated_cost/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/thukha/git/QT/estimated_cost/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/thukha/git/QT/estimated_cost",
+	"CMAKE_SOURCE_DIR" : "/home/thukha/git/QT/estimated_cost",
+	"INCLUDE_DIR" : "/home/thukha/git/QT/estimated_cost/build/estimated_cost_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/thukha/git/QT/estimated_cost/images/motor2.jpg",
+		"/home/thukha/git/QT/estimated_cost/images/battery1.jpeg",
+		"/home/thukha/git/QT/estimated_cost/images/battery2.jpg",
+		"/home/thukha/git/QT/estimated_cost/images/motordriver1.png",
+		"/home/thukha/git/QT/estimated_cost/images/motor1.jpg"
+	],
+	"LOCK_FILE" : "/home/thukha/git/QT/estimated_cost/build/CMakeFiles/estimated_cost_autogen.dir/AutoRcc_image_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "image" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_image.cpp",
+	"RCC_EXECUTABLE" : "/usr/lib/qt5/bin/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/thukha/git/QT/estimated_cost/build/CMakeFiles/estimated_cost_autogen.dir/AutoRcc_image_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/home/thukha/git/QT/estimated_cost/image.qrc",
+	"VERBOSITY" : 0
+}

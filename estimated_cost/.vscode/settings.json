@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "qcombobox": "cpp",
+        "qlabel": "cpp",
+        "qdebug": "cpp",
+        "qapplication": "cpp"
+    }
+}

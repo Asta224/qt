@@ -1,0 +1,10 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+    <qresource prefix="/">
+        <file>images/motor1.jpg</file>
+        <file>images/motor2.jpg</file>
+        <file>images/battery1.jpeg</file>
+        <file>images/battery2.jpg</file>
+        <file>images/motordriver1.png</file>
+    </qresource>
+</RCC>
