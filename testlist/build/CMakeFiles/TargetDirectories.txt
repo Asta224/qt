@@ -1,0 +1,4 @@
+/home/thukha/qtcreator/testlist/build/CMakeFiles/testlist.dir
+/home/thukha/qtcreator/testlist/build/CMakeFiles/edit_cache.dir
+/home/thukha/qtcreator/testlist/build/CMakeFiles/rebuild_cache.dir
+/home/thukha/qtcreator/testlist/build/CMakeFiles/testlist_autogen.dir
