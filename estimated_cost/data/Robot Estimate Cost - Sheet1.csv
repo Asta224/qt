@@ -1,52 +1,48 @@
 NO,Description,Photo,price,,Remark
 "Inertial measurement unit 
 (minimun require two unit)",,,,,
-1,"WitMotion WT901C-RS485 Modbus Tilt Sensor, 200Hz 3-axis Acceleration+Gyro+Magnetic,Tilt Angle Sensor for Geotechnical Monitoring",,$37.90,,Converter လို serial ချိတ်လို့ရ
-2,"WT901 C-232 Gyroscope Sensor, Triaxial Acceleration, Gyro, Angle, Digital Compass",,$37.90,,Converter လို
-3,[Industrial-Grade Accelerometer+Inclinometer] HWT901B TTL Gyroscope+ Angle(xy 0.05' Accuancy)+Digital Compass + Altitude + Magnetometer Compensation,,$77.00,,
-4,CH340G CH340 USB to TTL Serial Download Cable Convert Wire Adapter Compatible Win 7/8/10 for Arduino,,$5.00,,
+1,WT901 C-RS485,"WitMotion WT901C-RS485 Modbus Tilt Sensor 200Hz 3-axis Acceleration+Gyro+Magnetic Tilt Angle Sensor for Geotechnical Monitoring",:images/imu1.png,$37.90,,Converter လို serial ချိတ်လို့ရ
+2,WT901 C-232,"Gyroscope Sensor Triaxial Acceleration Gyro Angle Digital Compass",:images/imu2.png,$37.90,,Converter လို
+3,HWT901B,"[Industrial-Grade Accelerometer+Inclinometer] HWT901B TTL Gyroscope+ Angle(xy 0.05' Accuancy)+Digital Compass + Altitude + Magnetometer Compensation",:images/imu3,$77.00,,
+4,CH340G CH340 USB to TTL Serial Download Cable Convert Wire Adapter Compatible Win 7/8/10 for Arduino,:images/cable.png,$5.00,,
 GPS,,,,,
-1,WTRTK-980,,$145.90,,base station single antenna
-2,WTRTK-982,,$145.90,,mobile station dual antenna
-3,WTRTK-982-LTE-G,,$210.62,,mobile station dual antenna with shell and LTE
-4,"WitMotion High-Precision | GNSSSOC WTGPS+BD GPS,GLONASS,QZSS,NMEA0183 Module, With Flight Control, Antenna for Arduino",,$41.00,,RS 485 interface & modbus communication (multi-cascade 8)
-5,Industry-Grade Beidou WTGAHRS2 10-axis GPS-IMU Accelerometer+Gyros+Angle(XY 0.05°)+Magnetometer+Air Pressure+Latitude+Longitude,,$124.00,,TTL Communication
+1,WTRTK-980,base station single antenna,:images/gps1.png,$145.90,,
+2,WTRTK-982,mobile station dual antenna,:images/gps2.png,$145.90,,
+3,WTRTK-982-LTE-G,mobile station dual antenna with shell and LTE,:images/gps3.png,$210.62,,
+4,WIGOS+BD GPS, "WitMotion High-Precision | GNSSSOC WTGPS+BD GPS GLONASS,QZSS,NMEA0183 Module With Flight Control Antenna for Arduino",:images/gps4.png,$41.00,,RS 485 interface & modbus communication (multi-cascade 8)
+5,WTGAHRS2,"Industry-Grade Beidou WTGAHRS2 10-axis GPS-IMU Accelerometer+Gyros+Angle(XY 0.05°)+Magnetometer+Air Pressure+Latitude+Longitude",:images/gps5.png,$124.00,,TTL Communication
 GPS Accessories,,,,,
-1,RTK Base Station Antenna,,$83.00,,for base station
-2,RTK Mobile Station Antenna,,$79.00,,for mobile station (must need 2 units)
+1,RTK Base Station Antenna,for base station,:images/gpsacc1.png,$83.00,,
+2,RTK Mobile Station Antenna,for mobile station (must need 2 units),:images/gpsacc2.png,$79.00,,
 ,,,,,
 Lidar,,,,,
-1,Slamtec RPLIDAR A2 M8 360degree 16M 16K Hz lidar sensor 2D laser scanner for robot localization and navigation,,$300.00,,
-2,LTME-02A Indoor and outdoor lidar ranging sensor 20m 30KHZ AGV laser radar positioning navigation and obstacle avoidance,,$499.00,,"circular robot မဟုတ်ရင် 
+1,RPLIDAR A2,Slamtec RPLIDAR A2 M8 360degree 16M 16K Hz lidar sensor 2D laser scanner for robot localization and navigation,:images/lidar1.png,$300.00,,
+2,LTME-02A,Indoor and outdoor lidar ranging sensor 20m 30KHZ AGV laser radar positioning navigation and obstacle avoidance,:images/lidar2.png,$499.00,,"circular robot မဟုတ်ရင် 
 နှစ်လုံးသုံးမှ 
 အဆင်ပြေ ။"
-3,SLAMTEC RPLIDAR S1 TOF 360 Degree 40 Meters Lidar Sensor Scanner for Obstacle Avoidance and Navigation of a G V UAV,,$789.69,,
-4,HESAI XT16 XT32 Lidar sensor 16-Channel / 32-Channel 360° Spinning Mid-Range Lidar sensor High Precision Minimum Range of Zero,,"$2,350.00",,
-5,Alpha Prime Velodyne VLS-128 high-precision LiDAR,,"$71,150.00",,
+3,SLAMTEC RPLIDAR S1, TOF 360 Degree 40 Meters Lidar Sensor Scanner for Obstacle Avoidance and Navigation of a G V UAV,:images/lidar3.png,$789.69,,
+4,HESAI XT16 XT32 Lidar ,16-Channel / 32-Channel 360° Spinning Mid-Range Lidar sensor High Precision Minimum Range of Zero,:images/lidar4.png,"$2,350.00",,
+5,Velodyne VLS-128,Alpha Prime Velodyne VLS-128 high-precision LiDAR,:images/lidar5.png,"$71,150.00",,
 Servo Hub Motor Driver,,,,,
-1,Ampstech 24V-48V 10-30A 400W CANOPEN RS485 Brushless DC Electric Hub Servo Motor Driver for Patrol Robot,,$158.00,,
+1,L2DB4830-CAFC,Ampstech 24V-48V 10-30A 400W CANOPEN RS485 Brushless DC Electric Hub Servo Motor Driver for Patrol Robot,:images/motordriver1.png,$158.00,,
 Servo Hub Motor,,,,,
-1,"6.5 Inch 7nm 170mm Diameter Servo Hub Motor Electric Wheel Motor 24V 36V 48V for Agv, Robot, Mobile Robot",,$149.00,,120kg
-2,AMPS 8 Inch 15nm 24V 36V 48V DC Brushless Electric Wheel Hub Servo Motor IP67 Waterproof for Robot Agv,,$210.00,,300kg
+1,Motor 1 (120kg),"6.5 Inch 7nm 170mm Diameter Servo Hub Motor Electric Wheel Motor 24V 36V 48V for Agv  Robot Mobile Robot",:images/motor1.jpg,$149.00,,120kg
+2,Motor 2 (300kg),AMPS 8 Inch 15nm 24V 36V 48V DC Brushless Electric Wheel Hub Servo Motor IP67 Waterproof for Robot Agv,:images/motor2.jpg,$210.00,,300kg
 Caster Wheel,,,,,
-1,Caster Wheel,,$8.00,,၄ လုံးသုံးရန်
+1,Wheel 1,Caster Wheel(need 4),:images/wheel1.png,$8.00,,၄ လုံးသုံးရန်
 Camera,,,,,
-1,Industry RGB depth camera fourth-generation stereo 3D ROS Depth Camera,,$147.10,,
-2,Intel RealSense D415 Stereo Depth Sensing Camera 3D Awareness IMU Virtual Augmented Reality Drones Module Webcam,,$170,,
-3,Intel RealSense Depth Camera D435,,$329.00,,
+1,Camera 1,Industry RGB depth camera fourth-generation stereo 3D ROS Depth Camera,:images/camera1.png,$147.10,,
+2,Camera 2,Intel RealSense D415 Stereo Depth Sensing Camera 3D Awareness IMU Virtual Augmented Reality Drones Module Webcam,:images/camera2.png,$170,,
+3,Camera 3,Intel RealSense Depth Camera D435,:images/camera3.png,$329.00,,
 Mother Board,,,,,
-1,i5-10th gen,,~$150,,
-2,RAM 16 GB,,~$30,,
-3,SSD NVME 128 GB,,~$20,,
-4,RTL 8822CE (mini pcie wifi card),,~$8,,
+1,Motherboard 1,i5-10th gen RAM 16 GBSSD NVME 128 GBRTL 8822CE (mini pcie wifi card),:images/motherboard.jpg,$208,,
 Robot Controller,,,,,
 1,"(Hardware & Software Implementation)                
-ROM Robot Controller, 168 Mhz embedded controller, customized firmware, free RTOS, motor driver, IMU, GPS & all sensors implementation, custom Linux OS build & deployment, Robot Operating System II, Navigation II, SLAM, GUI QT app development, Auto Charging System, Circuit Design & the whole AMR system.  
-(Can get all software features as Binary Distribution)",,"$1,500",,
+ROM Robot Controller,168 Mhz embedded controller  customized firmware free RTOS,,$1500,,, motor driver, IMU, GPS & all sensors implementation, custom Linux OS build & deployment, Robot Operating System II, Navigation II, SLAM, GUI QT app development, Auto Charging System, Circuit Design & the whole AMR system.Can get all software features as Binary Distribution)"
 Battery & Docking System,,,,,
-,Battery,,$200,,
+,Battery,:images/battery1.jpeg,$200,,
 ,Docking System,,$150,,
 ,,,,,
 Robot Design & Body parts,,,,,
-,Po Po robot chassis ,,$300,,
-,Kilo robot chassis,,$300,,
+,Po Po robot chassis,,,$300,,
+,Kilo robot chassis,,,$300,,

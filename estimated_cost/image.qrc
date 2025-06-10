@@ -6,5 +6,29 @@
         <file>images/battery1.jpeg</file>
         <file>images/battery2.jpg</file>
         <file>images/motordriver1.png</file>
+        <file>images/cable.png</file>
+        <file>images/camera1.png</file>
+        <file>images/camera2.png</file>
+        <file>images/camera3.png</file>
+        <file>images/gps1.png</file>
+        <file>images/gps2.png</file>
+        <file>images/gps3.png</file>
+        <file>images/gps4.png</file>
+        <file>images/gps5.png</file>
+        <file>images/gpsacc1.png</file>
+        <file>images/gpsacc2.png</file>
+        <file>images/imu1.png</file>
+        <file>images/imu2.png</file>
+        <file>images/imu3.png</file>
+        <file>images/lidar1.png</file>
+        <file>images/lidar2.png</file>
+        <file>images/lidar3.png</file>
+        <file>images/lidar4.png</file>
+        <file>images/lidar5.png</file>
+        <file>images/motherboard.jpg</file>
+        <file>images/ram16.png</file>
+        <file>images/ssd.png</file>
+        <file>images/wheel1.png</file>
+        <file>images/wificard.png</file>
     </qresource>
 </RCC>

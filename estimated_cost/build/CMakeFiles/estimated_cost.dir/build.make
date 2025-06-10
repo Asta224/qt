@@ -71,11 +71,35 @@ include CMakeFiles/estimated_cost.dir/flags.make
 
 estimated_cost_autogen/EWIEGA46WW/qrc_image.cpp: ../image.qrc
 estimated_cost_autogen/EWIEGA46WW/qrc_image.cpp: CMakeFiles/estimated_cost_autogen.dir/AutoRcc_image_EWIEGA46WW_Info.json
-estimated_cost_autogen/EWIEGA46WW/qrc_image.cpp: ../images/motor2.jpg
-estimated_cost_autogen/EWIEGA46WW/qrc_image.cpp: ../images/battery1.jpeg
 estimated_cost_autogen/EWIEGA46WW/qrc_image.cpp: ../images/battery2.jpg
-estimated_cost_autogen/EWIEGA46WW/qrc_image.cpp: ../images/motordriver1.png
+estimated_cost_autogen/EWIEGA46WW/qrc_image.cpp: ../images/ram16.png
+estimated_cost_autogen/EWIEGA46WW/qrc_image.cpp: ../images/lidar1.png
 estimated_cost_autogen/EWIEGA46WW/qrc_image.cpp: ../images/motor1.jpg
+estimated_cost_autogen/EWIEGA46WW/qrc_image.cpp: ../images/lidar2.png
+estimated_cost_autogen/EWIEGA46WW/qrc_image.cpp: ../images/motor2.jpg
+estimated_cost_autogen/EWIEGA46WW/qrc_image.cpp: ../images/lidar3.png
+estimated_cost_autogen/EWIEGA46WW/qrc_image.cpp: ../images/lidar4.png
+estimated_cost_autogen/EWIEGA46WW/qrc_image.cpp: ../images/lidar5.png
+estimated_cost_autogen/EWIEGA46WW/qrc_image.cpp: ../images/imu1.png
+estimated_cost_autogen/EWIEGA46WW/qrc_image.cpp: ../images/motordriver1.png
+estimated_cost_autogen/EWIEGA46WW/qrc_image.cpp: ../images/imu2.png
+estimated_cost_autogen/EWIEGA46WW/qrc_image.cpp: ../images/imu3.png
+estimated_cost_autogen/EWIEGA46WW/qrc_image.cpp: ../images/gps1.png
+estimated_cost_autogen/EWIEGA46WW/qrc_image.cpp: ../images/gps2.png
+estimated_cost_autogen/EWIEGA46WW/qrc_image.cpp: ../images/gps3.png
+estimated_cost_autogen/EWIEGA46WW/qrc_image.cpp: ../images/motherboard.jpg
+estimated_cost_autogen/EWIEGA46WW/qrc_image.cpp: ../images/gps4.png
+estimated_cost_autogen/EWIEGA46WW/qrc_image.cpp: ../images/wheel1.png
+estimated_cost_autogen/EWIEGA46WW/qrc_image.cpp: ../images/cable.png
+estimated_cost_autogen/EWIEGA46WW/qrc_image.cpp: ../images/gps5.png
+estimated_cost_autogen/EWIEGA46WW/qrc_image.cpp: ../images/camera1.png
+estimated_cost_autogen/EWIEGA46WW/qrc_image.cpp: ../images/battery1.jpeg
+estimated_cost_autogen/EWIEGA46WW/qrc_image.cpp: ../images/camera2.png
+estimated_cost_autogen/EWIEGA46WW/qrc_image.cpp: ../images/camera3.png
+estimated_cost_autogen/EWIEGA46WW/qrc_image.cpp: ../images/ssd.png
+estimated_cost_autogen/EWIEGA46WW/qrc_image.cpp: ../images/gpsacc1.png
+estimated_cost_autogen/EWIEGA46WW/qrc_image.cpp: ../images/gpsacc2.png
+estimated_cost_autogen/EWIEGA46WW/qrc_image.cpp: ../images/wificard.png
 estimated_cost_autogen/EWIEGA46WW/qrc_image.cpp: /usr/lib/qt5/bin/rcc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/thukha/git/QT/estimated_cost/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic RCC for image.qrc"
 	/usr/bin/cmake -E cmake_autorcc /home/thukha/git/QT/estimated_cost/build/CMakeFiles/estimated_cost_autogen.dir/AutoRcc_image_EWIEGA46WW_Info.json 
