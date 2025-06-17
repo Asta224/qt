@@ -1,0 +1,8 @@
+/home/thukha/qtcreator/serialport/build/CMakeFiles/serialport.dir
+/home/thukha/qtcreator/serialport/build/CMakeFiles/edit_cache.dir
+/home/thukha/qtcreator/serialport/build/CMakeFiles/rebuild_cache.dir
+/home/thukha/qtcreator/serialport/build/CMakeFiles/serialport_autogen.dir
+/home/thukha/qtcreator/serialport/build/QtPlotter_build/CMakeFiles/QtPlotter.dir
+/home/thukha/qtcreator/serialport/build/QtPlotter_build/CMakeFiles/edit_cache.dir
+/home/thukha/qtcreator/serialport/build/QtPlotter_build/CMakeFiles/rebuild_cache.dir
+/home/thukha/qtcreator/serialport/build/QtPlotter_build/CMakeFiles/QtPlotter_autogen.dir
