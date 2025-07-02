@@ -1,5 +1,5 @@
-CMakeFiles/login.dir/main.cpp.o: /home/thukha/qtcreator/login/main.cpp \
- /usr/include/stdc-predef.h /home/thukha/qtcreator/login/mainwindow.h \
+CMakeFiles/login.dir/main.cpp.o: /home/thukha/qt/login/main.cpp \
+ /usr/include/stdc-predef.h /home/thukha/qt/login/mainwindow.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \
@@ -278,12 +278,11 @@ CMakeFiles/login.dir/main.cpp.o: /home/thukha/qtcreator/login/main.cpp \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlocale.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h \
- /home/thukha/qtcreator/login/topic.h \
+ /home/thukha/qt/login/topic.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QDialog \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h \
- /home/thukha/qtcreator/login/service.h \
- /home/thukha/qtcreator/login/mainwindow.h \
- /home/thukha/qtcreator/login/function.h \
+ /home/thukha/qt/login/service.h /home/thukha/qt/login/mainwindow.h \
+ /home/thukha/qt/login/function.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMessageBox \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmessagebox.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h \

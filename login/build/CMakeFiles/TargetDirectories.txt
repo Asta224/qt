@@ -1,4 +1,4 @@
-/home/thukha/qtcreator/login/build/CMakeFiles/login.dir
-/home/thukha/qtcreator/login/build/CMakeFiles/edit_cache.dir
-/home/thukha/qtcreator/login/build/CMakeFiles/rebuild_cache.dir
-/home/thukha/qtcreator/login/build/CMakeFiles/login_autogen.dir
+/home/thukha/qt/login/build/CMakeFiles/login.dir
+/home/thukha/qt/login/build/CMakeFiles/edit_cache.dir
+/home/thukha/qt/login/build/CMakeFiles/rebuild_cache.dir
+/home/thukha/qt/login/build/CMakeFiles/login_autogen.dir

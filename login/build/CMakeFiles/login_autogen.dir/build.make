@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/thukha/qtcreator/login
+CMAKE_SOURCE_DIR = /home/thukha/qt/login
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/thukha/qtcreator/login/build
+CMAKE_BINARY_DIR = /home/thukha/qt/login/build
 
 # Utility rule file for login_autogen.
 
@@ -67,8 +67,8 @@ include CMakeFiles/login_autogen.dir/compiler_depend.make
 include CMakeFiles/login_autogen.dir/progress.make
 
 CMakeFiles/login_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/thukha/qtcreator/login/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target login"
-	/usr/bin/cmake -E cmake_autogen /home/thukha/qtcreator/login/build/CMakeFiles/login_autogen.dir/AutogenInfo.json ""
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/thukha/qt/login/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target login"
+	/usr/bin/cmake -E cmake_autogen /home/thukha/qt/login/build/CMakeFiles/login_autogen.dir/AutogenInfo.json ""
 
 login_autogen: CMakeFiles/login_autogen
 login_autogen: CMakeFiles/login_autogen.dir/build.make
@@ -83,6 +83,6 @@ CMakeFiles/login_autogen.dir/clean:
 .PHONY : CMakeFiles/login_autogen.dir/clean
 
 CMakeFiles/login_autogen.dir/depend:
-	cd /home/thukha/qtcreator/login/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thukha/qtcreator/login /home/thukha/qtcreator/login /home/thukha/qtcreator/login/build /home/thukha/qtcreator/login/build /home/thukha/qtcreator/login/build/CMakeFiles/login_autogen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/thukha/qt/login/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thukha/qt/login /home/thukha/qt/login /home/thukha/qt/login/build /home/thukha/qt/login/build /home/thukha/qt/login/build/CMakeFiles/login_autogen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/login_autogen.dir/depend
 

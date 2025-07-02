@@ -1,9 +1,9 @@
-/home/thukha/qtcreator/login/build/login_autogen/EWIEGA46WW/moc_mainwindow.cpp: /home/thukha/qtcreator/login/mainwindow.h \
-  /home/thukha/qtcreator/login/build/login_autogen/moc_predefs.h \
-  /home/thukha/qtcreator/login/function.h \
-  /home/thukha/qtcreator/login/mainwindow.h \
-  /home/thukha/qtcreator/login/service.h \
-  /home/thukha/qtcreator/login/topic.h \
+/home/thukha/qt/login/build/login_autogen/EWIEGA46WW/moc_mainwindow.cpp: /home/thukha/qt/login/mainwindow.h \
+  /home/thukha/qt/login/build/login_autogen/moc_predefs.h \
+  /home/thukha/qt/login/function.h \
+  /home/thukha/qt/login/mainwindow.h \
+  /home/thukha/qt/login/service.h \
+  /home/thukha/qt/login/topic.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/assert.h \

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/thukha/qtcreator/login
+CMAKE_SOURCE_DIR = /home/thukha/qt/login
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/thukha/qtcreator/login/build
+CMAKE_BINARY_DIR = /home/thukha/qt/login/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/login.dir/depend.make
@@ -74,106 +74,106 @@ login_autogen/EWIEGA46WW/qrc_resource.cpp: CMakeFiles/login_autogen.dir/AutoRcc_
 login_autogen/EWIEGA46WW/qrc_resource.cpp: ../image2.jpg
 login_autogen/EWIEGA46WW/qrc_resource.cpp: ../image.jpeg
 login_autogen/EWIEGA46WW/qrc_resource.cpp: /usr/lib/qt5/bin/rcc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/thukha/qtcreator/login/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic RCC for resource.qrc"
-	/usr/bin/cmake -E cmake_autorcc /home/thukha/qtcreator/login/build/CMakeFiles/login_autogen.dir/AutoRcc_resource_EWIEGA46WW_Info.json 
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/thukha/qt/login/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic RCC for resource.qrc"
+	/usr/bin/cmake -E cmake_autorcc /home/thukha/qt/login/build/CMakeFiles/login_autogen.dir/AutoRcc_resource_EWIEGA46WW_Info.json 
 
 CMakeFiles/login.dir/login_autogen/mocs_compilation.cpp.o: CMakeFiles/login.dir/flags.make
 CMakeFiles/login.dir/login_autogen/mocs_compilation.cpp.o: login_autogen/mocs_compilation.cpp
 CMakeFiles/login.dir/login_autogen/mocs_compilation.cpp.o: CMakeFiles/login.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thukha/qtcreator/login/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/login.dir/login_autogen/mocs_compilation.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/login.dir/login_autogen/mocs_compilation.cpp.o -MF CMakeFiles/login.dir/login_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/login.dir/login_autogen/mocs_compilation.cpp.o -c /home/thukha/qtcreator/login/build/login_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thukha/qt/login/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/login.dir/login_autogen/mocs_compilation.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/login.dir/login_autogen/mocs_compilation.cpp.o -MF CMakeFiles/login.dir/login_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/login.dir/login_autogen/mocs_compilation.cpp.o -c /home/thukha/qt/login/build/login_autogen/mocs_compilation.cpp
 
 CMakeFiles/login.dir/login_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/login.dir/login_autogen/mocs_compilation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thukha/qtcreator/login/build/login_autogen/mocs_compilation.cpp > CMakeFiles/login.dir/login_autogen/mocs_compilation.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thukha/qt/login/build/login_autogen/mocs_compilation.cpp > CMakeFiles/login.dir/login_autogen/mocs_compilation.cpp.i
 
 CMakeFiles/login.dir/login_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/login.dir/login_autogen/mocs_compilation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thukha/qtcreator/login/build/login_autogen/mocs_compilation.cpp -o CMakeFiles/login.dir/login_autogen/mocs_compilation.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thukha/qt/login/build/login_autogen/mocs_compilation.cpp -o CMakeFiles/login.dir/login_autogen/mocs_compilation.cpp.s
 
 CMakeFiles/login.dir/main.cpp.o: CMakeFiles/login.dir/flags.make
 CMakeFiles/login.dir/main.cpp.o: ../main.cpp
 CMakeFiles/login.dir/main.cpp.o: CMakeFiles/login.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thukha/qtcreator/login/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/login.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/login.dir/main.cpp.o -MF CMakeFiles/login.dir/main.cpp.o.d -o CMakeFiles/login.dir/main.cpp.o -c /home/thukha/qtcreator/login/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thukha/qt/login/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/login.dir/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/login.dir/main.cpp.o -MF CMakeFiles/login.dir/main.cpp.o.d -o CMakeFiles/login.dir/main.cpp.o -c /home/thukha/qt/login/main.cpp
 
 CMakeFiles/login.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/login.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thukha/qtcreator/login/main.cpp > CMakeFiles/login.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thukha/qt/login/main.cpp > CMakeFiles/login.dir/main.cpp.i
 
 CMakeFiles/login.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/login.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thukha/qtcreator/login/main.cpp -o CMakeFiles/login.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thukha/qt/login/main.cpp -o CMakeFiles/login.dir/main.cpp.s
 
 CMakeFiles/login.dir/mainwindow.cpp.o: CMakeFiles/login.dir/flags.make
 CMakeFiles/login.dir/mainwindow.cpp.o: ../mainwindow.cpp
 CMakeFiles/login.dir/mainwindow.cpp.o: CMakeFiles/login.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thukha/qtcreator/login/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/login.dir/mainwindow.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/login.dir/mainwindow.cpp.o -MF CMakeFiles/login.dir/mainwindow.cpp.o.d -o CMakeFiles/login.dir/mainwindow.cpp.o -c /home/thukha/qtcreator/login/mainwindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thukha/qt/login/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/login.dir/mainwindow.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/login.dir/mainwindow.cpp.o -MF CMakeFiles/login.dir/mainwindow.cpp.o.d -o CMakeFiles/login.dir/mainwindow.cpp.o -c /home/thukha/qt/login/mainwindow.cpp
 
 CMakeFiles/login.dir/mainwindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/login.dir/mainwindow.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thukha/qtcreator/login/mainwindow.cpp > CMakeFiles/login.dir/mainwindow.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thukha/qt/login/mainwindow.cpp > CMakeFiles/login.dir/mainwindow.cpp.i
 
 CMakeFiles/login.dir/mainwindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/login.dir/mainwindow.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thukha/qtcreator/login/mainwindow.cpp -o CMakeFiles/login.dir/mainwindow.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thukha/qt/login/mainwindow.cpp -o CMakeFiles/login.dir/mainwindow.cpp.s
 
 CMakeFiles/login.dir/topic.cpp.o: CMakeFiles/login.dir/flags.make
 CMakeFiles/login.dir/topic.cpp.o: ../topic.cpp
 CMakeFiles/login.dir/topic.cpp.o: CMakeFiles/login.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thukha/qtcreator/login/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/login.dir/topic.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/login.dir/topic.cpp.o -MF CMakeFiles/login.dir/topic.cpp.o.d -o CMakeFiles/login.dir/topic.cpp.o -c /home/thukha/qtcreator/login/topic.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thukha/qt/login/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/login.dir/topic.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/login.dir/topic.cpp.o -MF CMakeFiles/login.dir/topic.cpp.o.d -o CMakeFiles/login.dir/topic.cpp.o -c /home/thukha/qt/login/topic.cpp
 
 CMakeFiles/login.dir/topic.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/login.dir/topic.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thukha/qtcreator/login/topic.cpp > CMakeFiles/login.dir/topic.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thukha/qt/login/topic.cpp > CMakeFiles/login.dir/topic.cpp.i
 
 CMakeFiles/login.dir/topic.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/login.dir/topic.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thukha/qtcreator/login/topic.cpp -o CMakeFiles/login.dir/topic.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thukha/qt/login/topic.cpp -o CMakeFiles/login.dir/topic.cpp.s
 
 CMakeFiles/login.dir/function.cpp.o: CMakeFiles/login.dir/flags.make
 CMakeFiles/login.dir/function.cpp.o: ../function.cpp
 CMakeFiles/login.dir/function.cpp.o: CMakeFiles/login.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thukha/qtcreator/login/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/login.dir/function.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/login.dir/function.cpp.o -MF CMakeFiles/login.dir/function.cpp.o.d -o CMakeFiles/login.dir/function.cpp.o -c /home/thukha/qtcreator/login/function.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thukha/qt/login/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/login.dir/function.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/login.dir/function.cpp.o -MF CMakeFiles/login.dir/function.cpp.o.d -o CMakeFiles/login.dir/function.cpp.o -c /home/thukha/qt/login/function.cpp
 
 CMakeFiles/login.dir/function.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/login.dir/function.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thukha/qtcreator/login/function.cpp > CMakeFiles/login.dir/function.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thukha/qt/login/function.cpp > CMakeFiles/login.dir/function.cpp.i
 
 CMakeFiles/login.dir/function.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/login.dir/function.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thukha/qtcreator/login/function.cpp -o CMakeFiles/login.dir/function.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thukha/qt/login/function.cpp -o CMakeFiles/login.dir/function.cpp.s
 
 CMakeFiles/login.dir/service.cpp.o: CMakeFiles/login.dir/flags.make
 CMakeFiles/login.dir/service.cpp.o: ../service.cpp
 CMakeFiles/login.dir/service.cpp.o: CMakeFiles/login.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thukha/qtcreator/login/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/login.dir/service.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/login.dir/service.cpp.o -MF CMakeFiles/login.dir/service.cpp.o.d -o CMakeFiles/login.dir/service.cpp.o -c /home/thukha/qtcreator/login/service.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thukha/qt/login/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/login.dir/service.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/login.dir/service.cpp.o -MF CMakeFiles/login.dir/service.cpp.o.d -o CMakeFiles/login.dir/service.cpp.o -c /home/thukha/qt/login/service.cpp
 
 CMakeFiles/login.dir/service.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/login.dir/service.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thukha/qtcreator/login/service.cpp > CMakeFiles/login.dir/service.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thukha/qt/login/service.cpp > CMakeFiles/login.dir/service.cpp.i
 
 CMakeFiles/login.dir/service.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/login.dir/service.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thukha/qtcreator/login/service.cpp -o CMakeFiles/login.dir/service.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thukha/qt/login/service.cpp -o CMakeFiles/login.dir/service.cpp.s
 
 CMakeFiles/login.dir/login_autogen/EWIEGA46WW/qrc_resource.cpp.o: CMakeFiles/login.dir/flags.make
 CMakeFiles/login.dir/login_autogen/EWIEGA46WW/qrc_resource.cpp.o: login_autogen/EWIEGA46WW/qrc_resource.cpp
 CMakeFiles/login.dir/login_autogen/EWIEGA46WW/qrc_resource.cpp.o: CMakeFiles/login.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thukha/qtcreator/login/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/login.dir/login_autogen/EWIEGA46WW/qrc_resource.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/login.dir/login_autogen/EWIEGA46WW/qrc_resource.cpp.o -MF CMakeFiles/login.dir/login_autogen/EWIEGA46WW/qrc_resource.cpp.o.d -o CMakeFiles/login.dir/login_autogen/EWIEGA46WW/qrc_resource.cpp.o -c /home/thukha/qtcreator/login/build/login_autogen/EWIEGA46WW/qrc_resource.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thukha/qt/login/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/login.dir/login_autogen/EWIEGA46WW/qrc_resource.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/login.dir/login_autogen/EWIEGA46WW/qrc_resource.cpp.o -MF CMakeFiles/login.dir/login_autogen/EWIEGA46WW/qrc_resource.cpp.o.d -o CMakeFiles/login.dir/login_autogen/EWIEGA46WW/qrc_resource.cpp.o -c /home/thukha/qt/login/build/login_autogen/EWIEGA46WW/qrc_resource.cpp
 
 CMakeFiles/login.dir/login_autogen/EWIEGA46WW/qrc_resource.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/login.dir/login_autogen/EWIEGA46WW/qrc_resource.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thukha/qtcreator/login/build/login_autogen/EWIEGA46WW/qrc_resource.cpp > CMakeFiles/login.dir/login_autogen/EWIEGA46WW/qrc_resource.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thukha/qt/login/build/login_autogen/EWIEGA46WW/qrc_resource.cpp > CMakeFiles/login.dir/login_autogen/EWIEGA46WW/qrc_resource.cpp.i
 
 CMakeFiles/login.dir/login_autogen/EWIEGA46WW/qrc_resource.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/login.dir/login_autogen/EWIEGA46WW/qrc_resource.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thukha/qtcreator/login/build/login_autogen/EWIEGA46WW/qrc_resource.cpp -o CMakeFiles/login.dir/login_autogen/EWIEGA46WW/qrc_resource.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thukha/qt/login/build/login_autogen/EWIEGA46WW/qrc_resource.cpp -o CMakeFiles/login.dir/login_autogen/EWIEGA46WW/qrc_resource.cpp.s
 
 # Object files for target login
 login_OBJECTS = \
@@ -200,7 +200,7 @@ login: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.3
 login: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.3
 login: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.3
 login: CMakeFiles/login.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/thukha/qtcreator/login/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable login"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/thukha/qt/login/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable login"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/login.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -212,6 +212,6 @@ CMakeFiles/login.dir/clean:
 .PHONY : CMakeFiles/login.dir/clean
 
 CMakeFiles/login.dir/depend: login_autogen/EWIEGA46WW/qrc_resource.cpp
-	cd /home/thukha/qtcreator/login/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thukha/qtcreator/login /home/thukha/qtcreator/login /home/thukha/qtcreator/login/build /home/thukha/qtcreator/login/build /home/thukha/qtcreator/login/build/CMakeFiles/login.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/thukha/qt/login/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thukha/qt/login /home/thukha/qt/login /home/thukha/qt/login/build /home/thukha/qt/login/build /home/thukha/qt/login/build/CMakeFiles/login.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/login.dir/depend
 

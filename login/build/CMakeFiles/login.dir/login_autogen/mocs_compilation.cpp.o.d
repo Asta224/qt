@@ -1,7 +1,7 @@
 CMakeFiles/login.dir/login_autogen/mocs_compilation.cpp.o: \
- /home/thukha/qtcreator/login/build/login_autogen/mocs_compilation.cpp \
+ /home/thukha/qt/login/build/login_autogen/mocs_compilation.cpp \
  /usr/include/stdc-predef.h \
- /home/thukha/qtcreator/login/build/login_autogen/EWIEGA46WW/moc_function.cpp \
+ /home/thukha/qt/login/build/login_autogen/EWIEGA46WW/moc_function.cpp \
  /usr/include/c++/11/memory /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -114,7 +114,7 @@ CMakeFiles/login.dir/login_autogen/mocs_compilation.cpp.o: \
  /usr/include/c++/11/bits/atomic_base.h \
  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
  /usr/include/c++/11/backward/auto_ptr.h \
- /home/thukha/qtcreator/login/build/login_autogen/EWIEGA46WW/../../../function.h \
+ /home/thukha/qt/login/build/login_autogen/EWIEGA46WW/../../../function.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QDialog \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \
@@ -267,7 +267,7 @@ CMakeFiles/login.dir/login_autogen/mocs_compilation.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qkeysequence.h \
- /home/thukha/qtcreator/login/build/login_autogen/EWIEGA46WW/../../../mainwindow.h \
+ /home/thukha/qt/login/build/login_autogen/EWIEGA46WW/../../../mainwindow.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabwidget.h \
@@ -281,16 +281,16 @@ CMakeFiles/login.dir/login_autogen/mocs_compilation.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlocale.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h \
- /home/thukha/qtcreator/login/build/login_autogen/EWIEGA46WW/../../../topic.h \
- /home/thukha/qtcreator/login/build/login_autogen/EWIEGA46WW/../../../service.h \
- /home/thukha/qtcreator/login/mainwindow.h \
- /home/thukha/qtcreator/login/build/login_autogen/EWIEGA46WW/../../../function.h \
+ /home/thukha/qt/login/build/login_autogen/EWIEGA46WW/../../../topic.h \
+ /home/thukha/qt/login/build/login_autogen/EWIEGA46WW/../../../service.h \
+ /home/thukha/qt/login/mainwindow.h \
+ /home/thukha/qt/login/build/login_autogen/EWIEGA46WW/../../../function.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMessageBox \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmessagebox.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h \
- /home/thukha/qtcreator/login/build/login_autogen/EWIEGA46WW/moc_mainwindow.cpp \
- /home/thukha/qtcreator/login/build/login_autogen/EWIEGA46WW/../../../mainwindow.h \
- /home/thukha/qtcreator/login/build/login_autogen/EWIEGA46WW/moc_service.cpp \
- /home/thukha/qtcreator/login/build/login_autogen/EWIEGA46WW/../../../service.h \
- /home/thukha/qtcreator/login/build/login_autogen/EWIEGA46WW/moc_topic.cpp \
- /home/thukha/qtcreator/login/build/login_autogen/EWIEGA46WW/../../../topic.h
+ /home/thukha/qt/login/build/login_autogen/EWIEGA46WW/moc_mainwindow.cpp \
+ /home/thukha/qt/login/build/login_autogen/EWIEGA46WW/../../../mainwindow.h \
+ /home/thukha/qt/login/build/login_autogen/EWIEGA46WW/moc_service.cpp \
+ /home/thukha/qt/login/build/login_autogen/EWIEGA46WW/../../../service.h \
+ /home/thukha/qt/login/build/login_autogen/EWIEGA46WW/moc_topic.cpp \
+ /home/thukha/qt/login/build/login_autogen/EWIEGA46WW/../../../topic.h
