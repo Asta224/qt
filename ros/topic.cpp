@@ -18,12 +18,84 @@
 #include <QDebug>
 #include <QMessageBox>
 
-topic::topic(QMainWindow *maindwindow, QWidget *parent) : QDialog(parent),
+topic::topic(QMainWindow *mainwindow, QWidget *parent) : QDialog(parent),
                                                           ui(new Ui::topic),
-                                                          m_mainwindow(maindwindow)
+                                                          m_mainwindow(mainwindow)
 {
     ui->setupUi(this);
     this->setWindowState(Qt::WindowMaximized);
+     this->setStyleSheet(R"(
+        /* Main Dialog background */
+        QDialog {
+            background-color: #E0E0E0; /* Light gray for the main window */
+        }
+
+        /* QTreeWidget Styling */
+        QTreeWidget {
+            border: 1px solid #A0A0A0; /* Similar border to your loginForm example */
+            background-color: #F0F0F0; /* Light background for the tree widget */
+            border-radius: 4px; /* Rounded corners for the tree widget */
+            color: #333333; /* Default text color for tree items */
+            font-size: 13px;
+            alternate-background-color: #EBEDF0; /* Slightly different gray for alternating rows */
+            selection-background-color: #B0D0F0; /* A soft blue for selected items */
+            selection-color: #333333; /* Dark text on selection */
+        }
+
+        QTreeWidget::item {
+            padding: 3px 0; /* Vertical padding for items */
+        }
+
+        QTreeWidget::item:selected {
+            background-color: #B0D0F0;
+            color: #333333;
+        }
+
+        /* QTreeWidget Header */
+        QHeaderView::section {
+            background-color: #D0D0D0; /* Slightly darker gray for header */
+            padding: 5px;
+            border: 1px solid #A0A0A0;
+            font-weight: bold;
+            font-size: 14px;
+            color: #333333; /* Header text color */
+        }
+
+        /* QPushButton Styling (for searchButton, homeButton) */
+        QPushButton {
+            color: white;
+            background-color: #4CAF50; /* Green */
+            border: 1px solid #388E3C; /* Darker green border */
+            border-radius: 3px; /* Rounded corners */
+            padding: 5px 10px; /* Padding for buttons */
+            font: bold 14px; /* Bold font for buttons */
+            min-width: 80px; /* Minimum width for buttons */
+        }
+
+        QPushButton:hover {
+            background-color: #66BB6A; /* Lighter green on hover */
+            border: 1px solid #4CAF50; /* Border color on hover */
+        }
+
+        QPushButton:pressed {
+            background-color: #388E3C; /* Darker green on press */
+            border: 1px solid #2E7D32; /* Even darker border on press */
+        }
+
+        /* QLabel Styling (for any QLabel you might add explicitly, or if QTreeWidget items are treated as labels) */
+        QLabel {
+            color: #333333; /* Dark text color for labels */
+        }
+
+        /* QLineEdit Styling (for editable fields within QTreeWidget) */
+        QLineEdit {
+            border: 1px solid #A0A0A0; /* Border for editable fields */
+            border-radius: 3px;
+            background-color: white;
+            color: #333333;
+            padding: 2px;
+        }
+    )");
 
     if (!rclcpp::ok())
     {
@@ -70,7 +142,7 @@ topic::~topic()
     active_geometry_subscribers_.clear();
     main_type_items_.clear();
     topic_timestamps_.clear();
-    topic_data_container_items_.clear(); 
+    topic_data_container_items_.clear();
 
     rclcpp::shutdown();
     delete ui;
@@ -88,7 +160,7 @@ void topic::on_searchButton_clicked()
     active_geometry_subscribers_.clear();
     main_type_items_.clear();
     topic_timestamps_.clear();
-    topic_data_container_items_.clear(); 
+    topic_data_container_items_.clear();
 
     auto topics = node_->get_topic_names_and_types();
     for (const auto &topic_pair : topics)
@@ -143,7 +215,7 @@ void topic::on_searchButton_clicked()
             dataContainerItem->setText(2, "");
             dataContainerItem->setText(3, "");
             dataContainerItem->setFlags(dataContainerItem->flags() & ~Qt::ItemIsEditable);
-            topic_data_container_items_[topic_name] = dataContainerItem; 
+            topic_data_container_items_[topic_name] = dataContainerItem;
         }
 
         if (topic_types_list.contains("geometry_msgs/msg/PoseStamped")) {
@@ -163,7 +235,7 @@ void topic::on_searchButton_clicked()
             QTreeWidgetItem *orientZ = new QTreeWidgetItem(orientItem); orientZ->setText(1, "z:"); orientZ->setText(2, "0.000"); orientZ->setFlags(orientZ->flags() | Qt::ItemIsEditable);
             QTreeWidgetItem *orientW = new QTreeWidgetItem(orientItem); orientW->setText(1, "w:"); orientW->setText(2, "1.000"); orientW->setFlags(orientW->flags() | Qt::ItemIsEditable);
 
-        } else if (topic_types_#centralwidget{border-image: url(:image.jpeg) 0 0 0 0 stretch stretch;}"list.contains("geometry_msgs/msg/Twist")) {
+        } else if (topic_types_list.contains("geometry_msgs/msg/Twist")) {
             type_for_subscription = "geometry_msgs/msg/Twist";
             QTreeWidgetItem *linearItem = new QTreeWidgetItem(dataContainerItem);
             linearItem->setText(1, "Linear");
@@ -209,7 +281,7 @@ void topic::on_searchButton_clicked()
                     rclcpp::QoS(10),
                     [this, topic_name](const geometry_msgs::msg::PoseStamped::SharedPtr msg)
                     {
-                        if (main_type_items_.contains(topic_name)) 
+                        if (main_type_items_.contains(topic_name))
                         {
                             this->updatePoseStampedData(main_type_items_[topic_name], msg, topic_name);
                         }
@@ -223,7 +295,7 @@ void topic::on_searchButton_clicked()
                     rclcpp::QoS(10),
                     [this, topic_name](const geometry_msgs::msg::Twist::SharedPtr msg)
                     {
-                        if (main_type_items_.contains(topic_name)) 
+                        if (main_type_items_.contains(topic_name))
                         {
                             this->updateTwistData(main_type_items_[topic_name], msg, topic_name);
                         }
@@ -237,7 +309,7 @@ void topic::on_searchButton_clicked()
                     rclcpp::QoS(10),
                     [this, topic_name](const geometry_msgs::msg::PointStamped::SharedPtr msg)
                     {
-                        if (main_type_items_.contains(topic_name)) 
+                        if (main_type_items_.contains(topic_name))
                         {
                             this->updatePointStampedData(main_type_items_[topic_name], msg, topic_name);
                         }
@@ -248,11 +320,10 @@ void topic::on_searchButton_clicked()
                     topic_pair.first,
                     rclcpp::QoS(10),
                     [this, topic_name](const turtlesim::msg::Pose::SharedPtr msg) {
-                        if (main_type_items_.contains(topic_name)) { 
+                        if (main_type_items_.contains(topic_name)) {
                             this->updateTurtlePoseData(main_type_items_[topic_name], msg, topic_name);
                         }
-                    }
-                );
+                    });
                 active_geometry_subscribers_[topic_name] = sub;
             }
         }
@@ -295,9 +366,9 @@ void topic::on_treeWidgetItem_changed(QTreeWidgetItem *item, int column){
 
                     // Reset internal current_cmd_vel variables to 0.0
                     current_linear_x_ = 0.0;
-                    current_linear_y_ = 0.0; 
+                    current_linear_y_ = 0.0;
                     current_linear_z_ = 0.0;
-                    current_angular_x_ = 0.0; 
+                    current_angular_x_ = 0.0;
                     current_angular_y_ = 0.0;
                     current_angular_z_ = 0.0;
 
@@ -404,7 +475,7 @@ void topic::calculateAndDisplayFrequency(const QString &topic_name, const rclcpp
         if (num_intervals > 0 && total_duration_sec > 0.0)
         {
             double frequency_hz = (double)num_intervals / total_duration_sec;
-            
+
             main_topic_parent_item->setText(3, QString::number(frequency_hz, 'f', 2) + " Hz");
         }
         else
@@ -482,7 +553,7 @@ void topic::updateTwistData(QTreeWidgetItem *main_topic_parent_item, const geome
         qWarning() << "Error: 'Linear/Angular' item not found for Twist under data container for topic" << topic_name;
         return;
     }
-   
+
     disconnect(ui->treeWidget, &QTreeWidget::itemChanged, this, &topic::on_treeWidgetItem_changed);
     findChildByText(linearItem, "x:")->setText(2, QString::number(msg->linear.x, 'f', 3));
     findChildByText(linearItem, "y:")->setText(2, QString::number(msg->linear.y, 'f', 3));
@@ -518,7 +589,7 @@ void topic::updatePointStampedData(QTreeWidgetItem *main_topic_parent_item, cons
     findChildByText(pointItem, "y:")->setText(2, QString::number(msg->point.y, 'f', 3));
     findChildByText(pointItem, "z:")->setText(2, QString::number(msg->point.z, 'f', 3));
     connect(ui->treeWidget, &QTreeWidget::itemChanged, this, &topic::on_treeWidgetItem_changed);
-    
+
     calculateAndDisplayFrequency(topic_name, msg->header.stamp, main_topic_parent_item);
 }
 
@@ -533,9 +604,9 @@ void topic::updateTurtlePoseData(QTreeWidgetItem* main_topic_parent_item, const 
 
     QTreeWidgetItem *poseItem = findChildByText(dataContainerItem, "Pose");
 
-    if (!poseItem) { 
-        qWarning() << "Error: 'Pose' item not found for turtlesim/Pose under data container for topic" << topic_name; 
-        return; 
+    if (!poseItem) {
+        qWarning() << "Error: 'Pose' item not found for turtlesim/Pose under data container for topic" << topic_name;
+        return;
     }
     disconnect(ui->treeWidget, &QTreeWidget::itemChanged, this, &topic::on_treeWidgetItem_changed);
     findChildByText(poseItem, "x:")->setText(2, QString::number(msg->x, 'f', 3));
@@ -544,8 +615,8 @@ void topic::updateTurtlePoseData(QTreeWidgetItem* main_topic_parent_item, const 
     findChildByText(poseItem, "linear_velocity:")->setText(2, QString::number(msg->linear_velocity, 'f', 3));
     findChildByText(poseItem, "angular_velocity:")->setText(2, QString::number(msg->angular_velocity, 'f', 3));
     connect(ui->treeWidget, &QTreeWidget::itemChanged, this, &topic::on_treeWidgetItem_changed);
-    
-    calculateAndDisplayFrequency(topic_name, node_->now(), main_topic_parent_item); 
+
+    calculateAndDisplayFrequency(topic_name, node_->now(), main_topic_parent_item);
 }
 
 void topic::on_homeButton_clicked()

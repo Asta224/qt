@@ -28,6 +28,8 @@ add_executable(${PROJECT_NAME}
     topic.h
     topic.cpp
     topic.ui
+    resource.qrc
+
 )
 
 target_link_libraries(${PROJECT_NAME}

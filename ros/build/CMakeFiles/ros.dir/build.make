@@ -69,10 +69,19 @@ include CMakeFiles/ros.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/ros.dir/flags.make
 
+ros_autogen/EWIEGA46WW/qrc_resource.cpp: ../resource.qrc
+ros_autogen/EWIEGA46WW/qrc_resource.cpp: CMakeFiles/ros_autogen.dir/AutoRcc_resource_EWIEGA46WW_Info.json
+ros_autogen/EWIEGA46WW/qrc_resource.cpp: ../data/logo2.jpg
+ros_autogen/EWIEGA46WW/qrc_resource.cpp: ../data/logo1.jpg
+ros_autogen/EWIEGA46WW/qrc_resource.cpp: ../data/logo3.jpg
+ros_autogen/EWIEGA46WW/qrc_resource.cpp: /usr/lib/qt5/bin/rcc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/thukha/qtcreator/ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic RCC for resource.qrc"
+	/usr/bin/cmake -E cmake_autorcc /home/thukha/qtcreator/ros/build/CMakeFiles/ros_autogen.dir/AutoRcc_resource_EWIEGA46WW_Info.json 
+
 CMakeFiles/ros.dir/ros_autogen/mocs_compilation.cpp.o: CMakeFiles/ros.dir/flags.make
 CMakeFiles/ros.dir/ros_autogen/mocs_compilation.cpp.o: ros_autogen/mocs_compilation.cpp
 CMakeFiles/ros.dir/ros_autogen/mocs_compilation.cpp.o: CMakeFiles/ros.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thukha/qtcreator/ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ros.dir/ros_autogen/mocs_compilation.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thukha/qtcreator/ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ros.dir/ros_autogen/mocs_compilation.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ros.dir/ros_autogen/mocs_compilation.cpp.o -MF CMakeFiles/ros.dir/ros_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/ros.dir/ros_autogen/mocs_compilation.cpp.o -c /home/thukha/qtcreator/ros/build/ros_autogen/mocs_compilation.cpp
 
 CMakeFiles/ros.dir/ros_autogen/mocs_compilation.cpp.i: cmake_force
@@ -86,7 +95,7 @@ CMakeFiles/ros.dir/ros_autogen/mocs_compilation.cpp.s: cmake_force
 CMakeFiles/ros.dir/main.cpp.o: CMakeFiles/ros.dir/flags.make
 CMakeFiles/ros.dir/main.cpp.o: ../main.cpp
 CMakeFiles/ros.dir/main.cpp.o: CMakeFiles/ros.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thukha/qtcreator/ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ros.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thukha/qtcreator/ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ros.dir/main.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ros.dir/main.cpp.o -MF CMakeFiles/ros.dir/main.cpp.o.d -o CMakeFiles/ros.dir/main.cpp.o -c /home/thukha/qtcreator/ros/main.cpp
 
 CMakeFiles/ros.dir/main.cpp.i: cmake_force
@@ -100,7 +109,7 @@ CMakeFiles/ros.dir/main.cpp.s: cmake_force
 CMakeFiles/ros.dir/mainwindow.cpp.o: CMakeFiles/ros.dir/flags.make
 CMakeFiles/ros.dir/mainwindow.cpp.o: ../mainwindow.cpp
 CMakeFiles/ros.dir/mainwindow.cpp.o: CMakeFiles/ros.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thukha/qtcreator/ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ros.dir/mainwindow.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thukha/qtcreator/ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ros.dir/mainwindow.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ros.dir/mainwindow.cpp.o -MF CMakeFiles/ros.dir/mainwindow.cpp.o.d -o CMakeFiles/ros.dir/mainwindow.cpp.o -c /home/thukha/qtcreator/ros/mainwindow.cpp
 
 CMakeFiles/ros.dir/mainwindow.cpp.i: cmake_force
@@ -114,7 +123,7 @@ CMakeFiles/ros.dir/mainwindow.cpp.s: cmake_force
 CMakeFiles/ros.dir/action.cpp.o: CMakeFiles/ros.dir/flags.make
 CMakeFiles/ros.dir/action.cpp.o: ../action.cpp
 CMakeFiles/ros.dir/action.cpp.o: CMakeFiles/ros.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thukha/qtcreator/ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ros.dir/action.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thukha/qtcreator/ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ros.dir/action.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ros.dir/action.cpp.o -MF CMakeFiles/ros.dir/action.cpp.o.d -o CMakeFiles/ros.dir/action.cpp.o -c /home/thukha/qtcreator/ros/action.cpp
 
 CMakeFiles/ros.dir/action.cpp.i: cmake_force
@@ -128,7 +137,7 @@ CMakeFiles/ros.dir/action.cpp.s: cmake_force
 CMakeFiles/ros.dir/service.cpp.o: CMakeFiles/ros.dir/flags.make
 CMakeFiles/ros.dir/service.cpp.o: ../service.cpp
 CMakeFiles/ros.dir/service.cpp.o: CMakeFiles/ros.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thukha/qtcreator/ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ros.dir/service.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thukha/qtcreator/ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ros.dir/service.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ros.dir/service.cpp.o -MF CMakeFiles/ros.dir/service.cpp.o.d -o CMakeFiles/ros.dir/service.cpp.o -c /home/thukha/qtcreator/ros/service.cpp
 
 CMakeFiles/ros.dir/service.cpp.i: cmake_force
@@ -142,7 +151,7 @@ CMakeFiles/ros.dir/service.cpp.s: cmake_force
 CMakeFiles/ros.dir/topic.cpp.o: CMakeFiles/ros.dir/flags.make
 CMakeFiles/ros.dir/topic.cpp.o: ../topic.cpp
 CMakeFiles/ros.dir/topic.cpp.o: CMakeFiles/ros.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thukha/qtcreator/ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ros.dir/topic.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thukha/qtcreator/ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ros.dir/topic.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ros.dir/topic.cpp.o -MF CMakeFiles/ros.dir/topic.cpp.o.d -o CMakeFiles/ros.dir/topic.cpp.o -c /home/thukha/qtcreator/ros/topic.cpp
 
 CMakeFiles/ros.dir/topic.cpp.i: cmake_force
@@ -153,6 +162,20 @@ CMakeFiles/ros.dir/topic.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ros.dir/topic.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thukha/qtcreator/ros/topic.cpp -o CMakeFiles/ros.dir/topic.cpp.s
 
+CMakeFiles/ros.dir/ros_autogen/EWIEGA46WW/qrc_resource.cpp.o: CMakeFiles/ros.dir/flags.make
+CMakeFiles/ros.dir/ros_autogen/EWIEGA46WW/qrc_resource.cpp.o: ros_autogen/EWIEGA46WW/qrc_resource.cpp
+CMakeFiles/ros.dir/ros_autogen/EWIEGA46WW/qrc_resource.cpp.o: CMakeFiles/ros.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thukha/qtcreator/ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/ros.dir/ros_autogen/EWIEGA46WW/qrc_resource.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ros.dir/ros_autogen/EWIEGA46WW/qrc_resource.cpp.o -MF CMakeFiles/ros.dir/ros_autogen/EWIEGA46WW/qrc_resource.cpp.o.d -o CMakeFiles/ros.dir/ros_autogen/EWIEGA46WW/qrc_resource.cpp.o -c /home/thukha/qtcreator/ros/build/ros_autogen/EWIEGA46WW/qrc_resource.cpp
+
+CMakeFiles/ros.dir/ros_autogen/EWIEGA46WW/qrc_resource.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ros.dir/ros_autogen/EWIEGA46WW/qrc_resource.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thukha/qtcreator/ros/build/ros_autogen/EWIEGA46WW/qrc_resource.cpp > CMakeFiles/ros.dir/ros_autogen/EWIEGA46WW/qrc_resource.cpp.i
+
+CMakeFiles/ros.dir/ros_autogen/EWIEGA46WW/qrc_resource.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ros.dir/ros_autogen/EWIEGA46WW/qrc_resource.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thukha/qtcreator/ros/build/ros_autogen/EWIEGA46WW/qrc_resource.cpp -o CMakeFiles/ros.dir/ros_autogen/EWIEGA46WW/qrc_resource.cpp.s
+
 # Object files for target ros
 ros_OBJECTS = \
 "CMakeFiles/ros.dir/ros_autogen/mocs_compilation.cpp.o" \
@@ -160,7 +183,8 @@ ros_OBJECTS = \
 "CMakeFiles/ros.dir/mainwindow.cpp.o" \
 "CMakeFiles/ros.dir/action.cpp.o" \
 "CMakeFiles/ros.dir/service.cpp.o" \
-"CMakeFiles/ros.dir/topic.cpp.o"
+"CMakeFiles/ros.dir/topic.cpp.o" \
+"CMakeFiles/ros.dir/ros_autogen/EWIEGA46WW/qrc_resource.cpp.o"
 
 # External object files for target ros
 ros_EXTERNAL_OBJECTS =
@@ -171,6 +195,7 @@ ros: CMakeFiles/ros.dir/mainwindow.cpp.o
 ros: CMakeFiles/ros.dir/action.cpp.o
 ros: CMakeFiles/ros.dir/service.cpp.o
 ros: CMakeFiles/ros.dir/topic.cpp.o
+ros: CMakeFiles/ros.dir/ros_autogen/EWIEGA46WW/qrc_resource.cpp.o
 ros: CMakeFiles/ros.dir/build.make
 ros: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.3
 ros: /opt/ros/humble/lib/librclcpp.so
@@ -270,7 +295,7 @@ ros: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_generator_c.so
 ros: /opt/ros/humble/lib/librosidl_runtime_c.so
 ros: /opt/ros/humble/lib/librcutils.so
 ros: CMakeFiles/ros.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/thukha/qtcreator/ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable ros"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/thukha/qtcreator/ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable ros"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ros.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -281,7 +306,7 @@ CMakeFiles/ros.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles/ros.dir/cmake_clean.cmake
 .PHONY : CMakeFiles/ros.dir/clean
 
-CMakeFiles/ros.dir/depend:
+CMakeFiles/ros.dir/depend: ros_autogen/EWIEGA46WW/qrc_resource.cpp
 	cd /home/thukha/qtcreator/ros/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thukha/qtcreator/ros /home/thukha/qtcreator/ros /home/thukha/qtcreator/ros/build /home/thukha/qtcreator/ros/build /home/thukha/qtcreator/ros/build/CMakeFiles/ros.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ros.dir/depend
 

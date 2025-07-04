@@ -1,0 +1,24 @@
+{
+	"BUILD_DIR" : "/home/thukha/qtcreator/ros/build/ros_autogen",
+	"CMAKE_BINARY_DIR" : "/home/thukha/qtcreator/ros/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/thukha/qtcreator/ros/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/thukha/qtcreator/ros",
+	"CMAKE_SOURCE_DIR" : "/home/thukha/qtcreator/ros",
+	"INCLUDE_DIR" : "/home/thukha/qtcreator/ros/build/ros_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/thukha/qtcreator/ros/data/logo2.jpg",
+		"/home/thukha/qtcreator/ros/data/logo1.jpg",
+		"/home/thukha/qtcreator/ros/data/logo3.jpg"
+	],
+	"LOCK_FILE" : "/home/thukha/qtcreator/ros/build/CMakeFiles/ros_autogen.dir/AutoRcc_resource_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "resource" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_resource.cpp",
+	"RCC_EXECUTABLE" : "/usr/lib/qt5/bin/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/thukha/qtcreator/ros/build/CMakeFiles/ros_autogen.dir/AutoRcc_resource_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/home/thukha/qtcreator/ros/resource.qrc",
+	"VERBOSITY" : 0
+}

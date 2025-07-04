@@ -7,6 +7,46 @@ service::service(QMainWindow *mainwindow,QWidget *parent) :
     m_mainwindow(mainwindow)
 {
     ui->setupUi(this);
+    this->setWindowState(Qt::WindowMaximized);
+    this->setStyleSheet(
+        // QDialog background color (similar to centralwidget in MainWindow)
+        "QDialog { background-color: #E0E0E0; }"
+
+        // QLabel text color
+        "QLabel { color: #333333; }"
+
+        // QPushButton styling
+        "QPushButton { "
+        "color: white; "
+        "background-color: #4CAF50; "
+        "border: 1px solid #388E3C; "
+        "border-radius: 3px; "
+        "padding: 5px 10px; "
+        "}"
+        "QPushButton:hover { "
+        "background-color: #66BB6A; "
+        "border: 1px solid #4CAF50; "
+        "}"
+        "QPushButton:pressed { "
+        "background-color: #388E3C; "
+        "border: 1px solid #2E7D32; "
+        "}"
+
+        // QTreeWidget styling (similar to QLineEdit/loginForm for a clean look)
+        "QTreeWidget { "
+        "border: 1px solid #A0A0A0; "
+        "background-color: white; " // A clean white background for the tree content
+        "border-radius: 4px; "
+        "color: #333333; "
+        "alternate-background-color: #F8F8F8; " // Optional: for zebra striping
+        "}"
+        "QTreeWidget::item { "
+        "padding: 3px; " // Add some padding to items
+        "}"
+        "QTreeWidget::branch { "
+        "image: none; " // Hide branch indicators if you just want a flat list
+        "}"
+    );
     if (!rclcpp::ok()){
         rclcpp::init(0, nullptr);
     }

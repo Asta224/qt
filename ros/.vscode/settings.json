@@ -4,6 +4,7 @@
         "qtreewidgetitem": "cpp",
         "qdebug": "cpp",
         "qheaderview": "cpp",
-        "qdatetime": "cpp"
+        "qdatetime": "cpp",
+        "qmessagebox": "cpp"
     }
 }
