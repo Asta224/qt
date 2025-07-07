@@ -1,7 +1,7 @@
 CMakeFiles/estimated_cost.dir/estimated_cost_autogen/mocs_compilation.cpp.o: \
- /home/thukha/git/QT/estimated_cost/build/estimated_cost_autogen/mocs_compilation.cpp \
+ /home/thukha/qt/estimated_cost/build/estimated_cost_autogen/mocs_compilation.cpp \
  /usr/include/stdc-predef.h \
- /home/thukha/git/QT/estimated_cost/build/estimated_cost_autogen/EWIEGA46WW/moc_mainwindow.cpp \
+ /home/thukha/qt/estimated_cost/build/estimated_cost_autogen/EWIEGA46WW/moc_mainwindow.cpp \
  /usr/include/c++/11/memory /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -114,7 +114,7 @@ CMakeFiles/estimated_cost.dir/estimated_cost_autogen/mocs_compilation.cpp.o: \
  /usr/include/c++/11/bits/atomic_base.h \
  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
  /usr/include/c++/11/backward/auto_ptr.h \
- /home/thukha/git/QT/estimated_cost/build/estimated_cost_autogen/EWIEGA46WW/../../../mainwindow.h \
+ /home/thukha/qt/estimated_cost/build/estimated_cost_autogen/EWIEGA46WW/../../../mainwindow.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/thukha/git/QT/estimated_cost
+CMAKE_SOURCE_DIR = /home/thukha/qt/estimated_cost
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/thukha/git/QT/estimated_cost/build
+CMAKE_BINARY_DIR = /home/thukha/qt/estimated_cost/build
 
 # Utility rule file for estimated_cost_autogen.
 
@@ -67,8 +67,8 @@ include CMakeFiles/estimated_cost_autogen.dir/compiler_depend.make
 include CMakeFiles/estimated_cost_autogen.dir/progress.make
 
 CMakeFiles/estimated_cost_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/thukha/git/QT/estimated_cost/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target estimated_cost"
-	/usr/bin/cmake -E cmake_autogen /home/thukha/git/QT/estimated_cost/build/CMakeFiles/estimated_cost_autogen.dir/AutogenInfo.json ""
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/thukha/qt/estimated_cost/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target estimated_cost"
+	/usr/bin/cmake -E cmake_autogen /home/thukha/qt/estimated_cost/build/CMakeFiles/estimated_cost_autogen.dir/AutogenInfo.json ""
 
 estimated_cost_autogen: CMakeFiles/estimated_cost_autogen
 estimated_cost_autogen: CMakeFiles/estimated_cost_autogen.dir/build.make
@@ -83,6 +83,6 @@ CMakeFiles/estimated_cost_autogen.dir/clean:
 .PHONY : CMakeFiles/estimated_cost_autogen.dir/clean
 
 CMakeFiles/estimated_cost_autogen.dir/depend:
-	cd /home/thukha/git/QT/estimated_cost/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thukha/git/QT/estimated_cost /home/thukha/git/QT/estimated_cost /home/thukha/git/QT/estimated_cost/build /home/thukha/git/QT/estimated_cost/build /home/thukha/git/QT/estimated_cost/build/CMakeFiles/estimated_cost_autogen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/thukha/qt/estimated_cost/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thukha/qt/estimated_cost /home/thukha/qt/estimated_cost /home/thukha/qt/estimated_cost/build /home/thukha/qt/estimated_cost/build /home/thukha/qt/estimated_cost/build/CMakeFiles/estimated_cost_autogen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/estimated_cost_autogen.dir/depend
 

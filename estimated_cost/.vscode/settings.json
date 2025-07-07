@@ -3,6 +3,9 @@
         "qcombobox": "cpp",
         "qlabel": "cpp",
         "qdebug": "cpp",
-        "qapplication": "cpp"
+        "qapplication": "cpp",
+        "qhboxlayout": "cpp",
+        "qpixmap": "cpp",
+        "qheaderview": "cpp"
     }
 }

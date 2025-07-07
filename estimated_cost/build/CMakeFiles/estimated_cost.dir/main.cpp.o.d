@@ -1,6 +1,6 @@
 CMakeFiles/estimated_cost.dir/main.cpp.o: \
- /home/thukha/git/QT/estimated_cost/main.cpp /usr/include/stdc-predef.h \
- /home/thukha/git/QT/estimated_cost/mainwindow.h \
+ /home/thukha/qt/estimated_cost/main.cpp /usr/include/stdc-predef.h \
+ /home/thukha/qt/estimated_cost/mainwindow.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \

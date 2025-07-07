@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/thukha/git/QT/estimated_cost
+CMAKE_SOURCE_DIR = /home/thukha/qt/estimated_cost
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/thukha/git/QT/estimated_cost/build
+CMAKE_BINARY_DIR = /home/thukha/qt/estimated_cost/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/estimated_cost.dir/depend.make
@@ -101,64 +101,64 @@ estimated_cost_autogen/EWIEGA46WW/qrc_image.cpp: ../images/gpsacc1.png
 estimated_cost_autogen/EWIEGA46WW/qrc_image.cpp: ../images/gpsacc2.png
 estimated_cost_autogen/EWIEGA46WW/qrc_image.cpp: ../images/wificard.png
 estimated_cost_autogen/EWIEGA46WW/qrc_image.cpp: /usr/lib/qt5/bin/rcc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/thukha/git/QT/estimated_cost/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic RCC for image.qrc"
-	/usr/bin/cmake -E cmake_autorcc /home/thukha/git/QT/estimated_cost/build/CMakeFiles/estimated_cost_autogen.dir/AutoRcc_image_EWIEGA46WW_Info.json 
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/thukha/qt/estimated_cost/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic RCC for image.qrc"
+	/usr/bin/cmake -E cmake_autorcc /home/thukha/qt/estimated_cost/build/CMakeFiles/estimated_cost_autogen.dir/AutoRcc_image_EWIEGA46WW_Info.json 
 
 CMakeFiles/estimated_cost.dir/estimated_cost_autogen/mocs_compilation.cpp.o: CMakeFiles/estimated_cost.dir/flags.make
 CMakeFiles/estimated_cost.dir/estimated_cost_autogen/mocs_compilation.cpp.o: estimated_cost_autogen/mocs_compilation.cpp
 CMakeFiles/estimated_cost.dir/estimated_cost_autogen/mocs_compilation.cpp.o: CMakeFiles/estimated_cost.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thukha/git/QT/estimated_cost/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/estimated_cost.dir/estimated_cost_autogen/mocs_compilation.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/estimated_cost.dir/estimated_cost_autogen/mocs_compilation.cpp.o -MF CMakeFiles/estimated_cost.dir/estimated_cost_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/estimated_cost.dir/estimated_cost_autogen/mocs_compilation.cpp.o -c /home/thukha/git/QT/estimated_cost/build/estimated_cost_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thukha/qt/estimated_cost/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/estimated_cost.dir/estimated_cost_autogen/mocs_compilation.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/estimated_cost.dir/estimated_cost_autogen/mocs_compilation.cpp.o -MF CMakeFiles/estimated_cost.dir/estimated_cost_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/estimated_cost.dir/estimated_cost_autogen/mocs_compilation.cpp.o -c /home/thukha/qt/estimated_cost/build/estimated_cost_autogen/mocs_compilation.cpp
 
 CMakeFiles/estimated_cost.dir/estimated_cost_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/estimated_cost.dir/estimated_cost_autogen/mocs_compilation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thukha/git/QT/estimated_cost/build/estimated_cost_autogen/mocs_compilation.cpp > CMakeFiles/estimated_cost.dir/estimated_cost_autogen/mocs_compilation.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thukha/qt/estimated_cost/build/estimated_cost_autogen/mocs_compilation.cpp > CMakeFiles/estimated_cost.dir/estimated_cost_autogen/mocs_compilation.cpp.i
 
 CMakeFiles/estimated_cost.dir/estimated_cost_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/estimated_cost.dir/estimated_cost_autogen/mocs_compilation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thukha/git/QT/estimated_cost/build/estimated_cost_autogen/mocs_compilation.cpp -o CMakeFiles/estimated_cost.dir/estimated_cost_autogen/mocs_compilation.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thukha/qt/estimated_cost/build/estimated_cost_autogen/mocs_compilation.cpp -o CMakeFiles/estimated_cost.dir/estimated_cost_autogen/mocs_compilation.cpp.s
 
 CMakeFiles/estimated_cost.dir/main.cpp.o: CMakeFiles/estimated_cost.dir/flags.make
 CMakeFiles/estimated_cost.dir/main.cpp.o: ../main.cpp
 CMakeFiles/estimated_cost.dir/main.cpp.o: CMakeFiles/estimated_cost.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thukha/git/QT/estimated_cost/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/estimated_cost.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/estimated_cost.dir/main.cpp.o -MF CMakeFiles/estimated_cost.dir/main.cpp.o.d -o CMakeFiles/estimated_cost.dir/main.cpp.o -c /home/thukha/git/QT/estimated_cost/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thukha/qt/estimated_cost/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/estimated_cost.dir/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/estimated_cost.dir/main.cpp.o -MF CMakeFiles/estimated_cost.dir/main.cpp.o.d -o CMakeFiles/estimated_cost.dir/main.cpp.o -c /home/thukha/qt/estimated_cost/main.cpp
 
 CMakeFiles/estimated_cost.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/estimated_cost.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thukha/git/QT/estimated_cost/main.cpp > CMakeFiles/estimated_cost.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thukha/qt/estimated_cost/main.cpp > CMakeFiles/estimated_cost.dir/main.cpp.i
 
 CMakeFiles/estimated_cost.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/estimated_cost.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thukha/git/QT/estimated_cost/main.cpp -o CMakeFiles/estimated_cost.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thukha/qt/estimated_cost/main.cpp -o CMakeFiles/estimated_cost.dir/main.cpp.s
 
 CMakeFiles/estimated_cost.dir/mainwindow.cpp.o: CMakeFiles/estimated_cost.dir/flags.make
 CMakeFiles/estimated_cost.dir/mainwindow.cpp.o: ../mainwindow.cpp
 CMakeFiles/estimated_cost.dir/mainwindow.cpp.o: CMakeFiles/estimated_cost.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thukha/git/QT/estimated_cost/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/estimated_cost.dir/mainwindow.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/estimated_cost.dir/mainwindow.cpp.o -MF CMakeFiles/estimated_cost.dir/mainwindow.cpp.o.d -o CMakeFiles/estimated_cost.dir/mainwindow.cpp.o -c /home/thukha/git/QT/estimated_cost/mainwindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thukha/qt/estimated_cost/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/estimated_cost.dir/mainwindow.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/estimated_cost.dir/mainwindow.cpp.o -MF CMakeFiles/estimated_cost.dir/mainwindow.cpp.o.d -o CMakeFiles/estimated_cost.dir/mainwindow.cpp.o -c /home/thukha/qt/estimated_cost/mainwindow.cpp
 
 CMakeFiles/estimated_cost.dir/mainwindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/estimated_cost.dir/mainwindow.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thukha/git/QT/estimated_cost/mainwindow.cpp > CMakeFiles/estimated_cost.dir/mainwindow.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thukha/qt/estimated_cost/mainwindow.cpp > CMakeFiles/estimated_cost.dir/mainwindow.cpp.i
 
 CMakeFiles/estimated_cost.dir/mainwindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/estimated_cost.dir/mainwindow.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thukha/git/QT/estimated_cost/mainwindow.cpp -o CMakeFiles/estimated_cost.dir/mainwindow.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thukha/qt/estimated_cost/mainwindow.cpp -o CMakeFiles/estimated_cost.dir/mainwindow.cpp.s
 
 CMakeFiles/estimated_cost.dir/estimated_cost_autogen/EWIEGA46WW/qrc_image.cpp.o: CMakeFiles/estimated_cost.dir/flags.make
 CMakeFiles/estimated_cost.dir/estimated_cost_autogen/EWIEGA46WW/qrc_image.cpp.o: estimated_cost_autogen/EWIEGA46WW/qrc_image.cpp
 CMakeFiles/estimated_cost.dir/estimated_cost_autogen/EWIEGA46WW/qrc_image.cpp.o: CMakeFiles/estimated_cost.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thukha/git/QT/estimated_cost/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/estimated_cost.dir/estimated_cost_autogen/EWIEGA46WW/qrc_image.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/estimated_cost.dir/estimated_cost_autogen/EWIEGA46WW/qrc_image.cpp.o -MF CMakeFiles/estimated_cost.dir/estimated_cost_autogen/EWIEGA46WW/qrc_image.cpp.o.d -o CMakeFiles/estimated_cost.dir/estimated_cost_autogen/EWIEGA46WW/qrc_image.cpp.o -c /home/thukha/git/QT/estimated_cost/build/estimated_cost_autogen/EWIEGA46WW/qrc_image.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thukha/qt/estimated_cost/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/estimated_cost.dir/estimated_cost_autogen/EWIEGA46WW/qrc_image.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/estimated_cost.dir/estimated_cost_autogen/EWIEGA46WW/qrc_image.cpp.o -MF CMakeFiles/estimated_cost.dir/estimated_cost_autogen/EWIEGA46WW/qrc_image.cpp.o.d -o CMakeFiles/estimated_cost.dir/estimated_cost_autogen/EWIEGA46WW/qrc_image.cpp.o -c /home/thukha/qt/estimated_cost/build/estimated_cost_autogen/EWIEGA46WW/qrc_image.cpp
 
 CMakeFiles/estimated_cost.dir/estimated_cost_autogen/EWIEGA46WW/qrc_image.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/estimated_cost.dir/estimated_cost_autogen/EWIEGA46WW/qrc_image.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thukha/git/QT/estimated_cost/build/estimated_cost_autogen/EWIEGA46WW/qrc_image.cpp > CMakeFiles/estimated_cost.dir/estimated_cost_autogen/EWIEGA46WW/qrc_image.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thukha/qt/estimated_cost/build/estimated_cost_autogen/EWIEGA46WW/qrc_image.cpp > CMakeFiles/estimated_cost.dir/estimated_cost_autogen/EWIEGA46WW/qrc_image.cpp.i
 
 CMakeFiles/estimated_cost.dir/estimated_cost_autogen/EWIEGA46WW/qrc_image.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/estimated_cost.dir/estimated_cost_autogen/EWIEGA46WW/qrc_image.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thukha/git/QT/estimated_cost/build/estimated_cost_autogen/EWIEGA46WW/qrc_image.cpp -o CMakeFiles/estimated_cost.dir/estimated_cost_autogen/EWIEGA46WW/qrc_image.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thukha/qt/estimated_cost/build/estimated_cost_autogen/EWIEGA46WW/qrc_image.cpp -o CMakeFiles/estimated_cost.dir/estimated_cost_autogen/EWIEGA46WW/qrc_image.cpp.s
 
 # Object files for target estimated_cost
 estimated_cost_OBJECTS = \
@@ -179,7 +179,7 @@ estimated_cost: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.3
 estimated_cost: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.3
 estimated_cost: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.3
 estimated_cost: CMakeFiles/estimated_cost.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/thukha/git/QT/estimated_cost/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable estimated_cost"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/thukha/qt/estimated_cost/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable estimated_cost"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/estimated_cost.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -191,6 +191,6 @@ CMakeFiles/estimated_cost.dir/clean:
 .PHONY : CMakeFiles/estimated_cost.dir/clean
 
 CMakeFiles/estimated_cost.dir/depend: estimated_cost_autogen/EWIEGA46WW/qrc_image.cpp
-	cd /home/thukha/git/QT/estimated_cost/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thukha/git/QT/estimated_cost /home/thukha/git/QT/estimated_cost /home/thukha/git/QT/estimated_cost/build /home/thukha/git/QT/estimated_cost/build /home/thukha/git/QT/estimated_cost/build/CMakeFiles/estimated_cost.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/thukha/qt/estimated_cost/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thukha/qt/estimated_cost /home/thukha/qt/estimated_cost /home/thukha/qt/estimated_cost/build /home/thukha/qt/estimated_cost/build /home/thukha/qt/estimated_cost/build/CMakeFiles/estimated_cost.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/estimated_cost.dir/depend
 

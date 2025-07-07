@@ -1,3 +1,4 @@
+
 #include "ui_mainwindow.h"
 #include <QComboBox>
 #include <QSpinBox>
@@ -72,7 +73,7 @@ MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent), ui(new Ui::MainWindow) {
     ui->setupUi(this);
 
-    loadPricesFromCSV("/home/thukha/git/QT/estimated_cost/data/Robot Estimate Cost - Sheet1.csv");
+    loadPricesFromCSV("/home/thukha/qt/estimated_cost/data/Robot Estimate Cost - Sheet1.csv");
 
     int itemRows = 11;
     int totalRow = itemRows;

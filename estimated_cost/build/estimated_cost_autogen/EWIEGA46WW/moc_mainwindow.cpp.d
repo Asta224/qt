@@ -1,5 +1,5 @@
-/home/thukha/git/QT/estimated_cost/build/estimated_cost_autogen/EWIEGA46WW/moc_mainwindow.cpp: /home/thukha/git/QT/estimated_cost/mainwindow.h \
-  /home/thukha/git/QT/estimated_cost/build/estimated_cost_autogen/moc_predefs.h \
+/home/thukha/qt/estimated_cost/build/estimated_cost_autogen/EWIEGA46WW/moc_mainwindow.cpp: /home/thukha/qt/estimated_cost/mainwindow.h \
+  /home/thukha/qt/estimated_cost/build/estimated_cost_autogen/moc_predefs.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/assert.h \

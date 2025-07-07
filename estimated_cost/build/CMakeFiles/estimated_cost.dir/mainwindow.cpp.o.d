@@ -1,7 +1,6 @@
 CMakeFiles/estimated_cost.dir/mainwindow.cpp.o: \
- /home/thukha/git/QT/estimated_cost/mainwindow.cpp \
- /usr/include/stdc-predef.h \
- /home/thukha/git/QT/estimated_cost/build/estimated_cost_autogen/include/ui_mainwindow.h \
+ /home/thukha/qt/estimated_cost/mainwindow.cpp /usr/include/stdc-predef.h \
+ /home/thukha/qt/estimated_cost/build/estimated_cost_autogen/include/ui_mainwindow.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h \
@@ -344,5 +343,5 @@ CMakeFiles/estimated_cost.dir/mainwindow.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/QPixmap \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixmap.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QHeaderView \
- /home/thukha/git/QT/estimated_cost/mainwindow.h \
+ /home/thukha/qt/estimated_cost/mainwindow.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow

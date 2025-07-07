@@ -1,4 +1,4 @@
-# Install script for directory: /home/thukha/git/QT/estimated_cost
+# Install script for directory: /home/thukha/qt/estimated_cost
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/thukha/git/QT/estimated_cost/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/thukha/qt/estimated_cost/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
