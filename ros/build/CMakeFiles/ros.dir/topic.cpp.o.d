@@ -778,6 +778,8 @@ CMakeFiles/ros.dir/topic.cpp.o: /home/thukha/qtcreator/ros/topic.cpp \
  /home/thukha/qtcreator/ros/build/ros_autogen/include/ui_topic.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/QIcon \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qicon.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreapplication.h \

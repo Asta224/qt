@@ -10,8 +10,6 @@ MainWindow::MainWindow(QWidget *parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-    ui->logoLabel->setStyleSheet("image: url(:data/logo2.jpg);");
-
      this->setStyleSheet(
     "#centralwidget { border-image: url(:data/logo1.jpg) 0 0 0 0 stretch stretch; background-color: #E0E0E0; }"
     "#loginForm { "
@@ -47,8 +45,8 @@ MainWindow::MainWindow(QWidget *parent)
 ui->loginButton->setDefault(true);
    
 ui->currentDateTime->setStyleSheet("color:hsl(0, 33.30%, 81.80%);");
-ui->username->setStyleSheet("color:hsl(233, 100.00%, 49.40%);");
-ui->password->setStyleSheet("color:hsl(233, 100.00%, 49.40%);");
+ui->username->setStyleSheet("color: #333333;");
+ui->password->setStyleSheet("color: #333333;");
     QDateTime *time = new QDateTime(QDateTime::currentDateTime());
     // qDebug() << "Current time:" << time->toString("dddd dd-M-yy hh:mm");
     ui->currentDateTime->setText(time->toString("dddd dd-M-yy hh:mm"));

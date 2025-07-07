@@ -5287,6 +5287,8 @@ CMakeFiles/ros.dir/topic.cpp.o: ../topic.cpp \
   ros_autogen/include/ui_topic.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/QIcon \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qicon.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreapplication.h \
@@ -5339,6 +5341,8 @@ CMakeFiles/ros.dir/topic.cpp.o: ../topic.cpp \
 /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__builder.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/serialization.hpp:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/QIcon:
 
 ros_autogen/include/ui_topic.h:
 
