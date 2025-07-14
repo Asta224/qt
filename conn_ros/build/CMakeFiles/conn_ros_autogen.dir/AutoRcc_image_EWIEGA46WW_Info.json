@@ -1,0 +1,19 @@
+{
+	"BUILD_DIR" : "/home/thukha/qtcreator/conn_ros/build/conn_ros_autogen",
+	"CMAKE_BINARY_DIR" : "/home/thukha/qtcreator/conn_ros/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/thukha/qtcreator/conn_ros/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/thukha/qtcreator/conn_ros",
+	"CMAKE_SOURCE_DIR" : "/home/thukha/qtcreator/conn_ros",
+	"INCLUDE_DIR" : "/home/thukha/qtcreator/conn_ros/build/conn_ros_autogen/include",
+	"INPUTS" : [ "/home/thukha/qtcreator/conn_ros/image/logo2.jpg" ],
+	"LOCK_FILE" : "/home/thukha/qtcreator/conn_ros/build/CMakeFiles/conn_ros_autogen.dir/AutoRcc_image_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "image" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_image.cpp",
+	"RCC_EXECUTABLE" : "/usr/lib/qt5/bin/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/thukha/qtcreator/conn_ros/build/CMakeFiles/conn_ros_autogen.dir/AutoRcc_image_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/home/thukha/qtcreator/conn_ros/image.qrc",
+	"VERBOSITY" : 0
+}
