@@ -126,8 +126,8 @@ To add more topics or functionalities:
 * Add `find_package()` for any new ROS2 message packages required.
 * Add the new message package to `ament_target_dependencies()`.
 
-> [! WARNING]
-> Troubleshooting
+
+>  ⚠️ Troubleshooting
 
 >"Error: ROS 2 is not running!": Ensure you have sourced your ROS2 environment and that roscore (or ros2 daemon) is running.
 

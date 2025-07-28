@@ -6,6 +6,8 @@
         "qapplication": "cpp",
         "qhboxlayout": "cpp",
         "qpixmap": "cpp",
-        "qheaderview": "cpp"
+        "qheaderview": "cpp",
+        "qspinbox": "cpp",
+        "qmap": "cpp"
     }
 }

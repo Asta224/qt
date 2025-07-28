@@ -1,4 +1,4 @@
-/home/thukha/qt/estimated_cost/build/CMakeFiles/estimated_cost.dir
+/home/thukha/qt/estimated_cost/build/CMakeFiles/robot_estimate.dir
 /home/thukha/qt/estimated_cost/build/CMakeFiles/edit_cache.dir
 /home/thukha/qt/estimated_cost/build/CMakeFiles/rebuild_cache.dir
-/home/thukha/qt/estimated_cost/build/CMakeFiles/estimated_cost_autogen.dir
+/home/thukha/qt/estimated_cost/build/CMakeFiles/robot_estimate_autogen.dir
