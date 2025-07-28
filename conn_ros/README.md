@@ -35,6 +35,14 @@ Before building and running this application, ensure you have the following inst
 * `mainwindow.ui`: The Qt Designer UI file defining the layout and widgets of the main window.
 * `image.qrc`: Qt Resource file, likely containing the `logo2.jpg` image used in the UI.
 
+### Project Structure Diagram (ASCII Art):
+ROS2 Qt Monitor/
+├── CMakeLists.txt
+├── main.cpp
+├── mainwindow.h
+├── mainwindow.cpp
+└── mainwindow.ui
+
 ## Building the Project
 
 1.  **Source ROS2:**
