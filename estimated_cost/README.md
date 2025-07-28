@@ -49,14 +49,14 @@ To embark on your robot cost estimation journey, ensure you have the following e
 A clear and organized project directory ensures maintainability and ease of navigation:
 
 Robot Cost Estimator/
-├── CMakeLists.txt
-├── main.cpp
-├── mainwindow.h
-├── mainwindow.cpp
-├── mainwindow.ui
-├── image.qrc
-└── data/
-    └── Robot Estimate Cost - Sheet1.csv
+    ├── CMakeLists.txt
+    ├── main.cpp
+    ├── mainwindow.h
+    ├── mainwindow.cpp
+    ├── mainwindow.ui
+    ├── image.qrc
+    └── data/
+        └── Robot Estimate Cost - Sheet1.csv
 ## 🏗️ Building the Project
 
 Follow these straightforward steps to get your Robot Cost Estimator up and running:
