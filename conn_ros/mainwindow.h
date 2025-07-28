@@ -1,7 +1,7 @@
 ﻿#pragma once
 
-#include <QMainWindow> // Qt Framework ရှိ Main window class အတွက် ထည့်သွင်းခြင်း။
-#include <QPushButton> // Button functionalities အတွက် ထည့်သွင်းခြင်း။
+#include <QMainWindow> 
+#include <QPushButton> 
 #include <QTimer> // Timed events တွေအတွက် ထည့်သွင်းခြင်း။
 #include <thread> // C++ thread support အတွက် ထည့်သွင်းခြင်း။
 #include <memory> // Smart pointers (ဥပမာ: std::shared_ptr) အတွက် ထည့်သွင်းခြင်း။
@@ -31,12 +31,12 @@
 #include <sensor_msgs/msg/point_cloud2.hpp> // ROS2 PointCloud2 မက်ဆေ့ချ် အမျိုးအစား (3D point cloud data) အတွက် ထည့်သွင်းခြင်း။
 
 QT_BEGIN_NAMESPACE
-namespace Ui { class MainWindow; } // Ui namespace ထဲမှာ MainWindow class ကို ကြေညာခြင်း။
+namespace Ui { class MainWindow; } 
 QT_END_NAMESPACE
 
 class MainWindow : public QMainWindow
 {
-    Q_OBJECT // Qt ရဲ့ meta-object system ကို support လုပ်ဖို့အတွက် macro။
+    Q_OBJECT 
 
 public:
     MainWindow(QWidget *parent = nullptr);
