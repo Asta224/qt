@@ -126,9 +126,12 @@ To add more topics or functionalities:
 * Add `find_package()` for any new ROS2 message packages required.
 * Add the new message package to `ament_target_dependencies()`.
 
-> [!WARNING] Troubleshooting
->
-> * **"Error: ROS 2 is not running!"**: Ensure you have sourced your ROS2 environment and that `roscore` (or `ros2 daemon`) is running.
-> * **Buttons remain grey/blue**: Verify that a ROS2 node is actively publishing to the topic you are trying to monitor. Use `ros2 topic list` and `ros2 topic echo <topic_name>` to confirm.
-> * **Build errors**: Check your `CMakeLists.txt` for correct package dependencies and ensure all required ROS2 and Qt libraries are installed.
-> * **Runtime errors**: Check the console output for any ROS2 or Qt-related error messages.
+[!WARNING] Troubleshooting
+
+"Error: ROS 2 is not running!": Ensure you have sourced your ROS2 environment and that roscore (or ros2 daemon) is running.
+
+Buttons remain grey/blue: Verify that a ROS2 node is actively publishing to the topic you are trying to monitor. Use ros2 topic list and ros2 topic echo <topic_name> to confirm.
+
+Build errors: Check your CMakeLists.txt for correct package dependencies and ensure all required ROS2 and Qt libraries are installed.
+
+Runtime errors: Check the console output for any ROS2 or Qt-related error messages.
