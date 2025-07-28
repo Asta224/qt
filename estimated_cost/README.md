@@ -28,6 +28,16 @@ To build and run this application, you need the following:
 * `mainwindow.ui`: The Qt Designer UI definition file that describes the layout and components of the main application window.
 * `image.qrc`: A Qt Resource Collection file, used to embed images (like `logo2.jpg`) directly into the executable.
 
+Robot Cost Estimator/
+├── CMakeLists.txt
+├── main.cpp
+├── mainwindow.h
+├── mainwindow.cpp
+├── mainwindow.ui
+├── image.qrc
+└── data/
+    └── Robot Estimate Cost - Sheet1.csv
+
 ## Building the Project
 
 1.  **Clone the repository (if applicable):**
