@@ -60,32 +60,32 @@ private:
     bool ros_ok = false; // ROS2 initialization အခြေအနေကို ပြတဲ့ flag ကို ကြေညာခြင်း။
     QString lastError; // နောက်ဆုံးပေါ်လာတဲ့ error ကို သိမ်းထားဖို့ ကြေညာခြင်း။
 
-    // Subscribers and data for 25 topics
-    std::shared_ptr<rclcpp::Subscription<geometry_msgs::msg::Twist>> cmd_vel_sub; // cmd_vel topic subscriber ကို ကြေညာခြင်း။
-    std::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::LaserScan>> scan_sub; // scan topic subscriber ကို ကြေညာခြင်း။
-    std::shared_ptr<rclcpp::Subscription<turtlesim::msg::Pose>> turtle_pose_sub; // turtle_pose topic subscriber ကို ကြေညာခြင်း။
-    std::shared_ptr<rclcpp::Subscription<nav_msgs::msg::Odometry>> odom_sub; // odom topic subscriber ကို ကြေညာခြင်း။
-    std::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::JointState>> joint_states_sub; // joint_states topic subscriber ကို ကြေညာခြင်း။
-    std::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::Image>> image_sub; // image topic subscriber ကို ကြေညာခြင်း။
-    std::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::BatteryState>> battery_sub; // battery_state topic subscriber ကို ကြေညာခြင်း။
-    std::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::Imu>> imu_sub; // imu topic subscriber ကို ကြေညာခြင်း။
-    std::shared_ptr<rclcpp::Subscription<nav_msgs::msg::OccupancyGrid>> map_sub; // map topic subscriber ကို ကြေညာခြင်း။
-    std::shared_ptr<rclcpp::Subscription<geometry_msgs::msg::PoseStamped>> goal_pose_sub; // goal_pose topic subscriber ကို ကြေညာခြင်း။
-    std::shared_ptr<rclcpp::Subscription<tf2_msgs::msg::TFMessage>> tf_sub; // tf topic subscriber ကို ကြေညာခြင်း။
-    std::shared_ptr<rclcpp::Subscription<diagnostic_msgs::msg::DiagnosticArray>> diag_sub; // diagnostic_array topic subscriber ကို ကြေညာခြင်း။
-    std::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::LaserEcho>> laser_echo_sub; // laser_echo topic subscriber ကို ကြေညာခြင်း။
-    std::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::FluidPressure>> fluid_pressure_sub; // fluid_pressure topic subscriber ကို ကြေညာခြင်း။
-    std::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::MagneticField>> magnetic_field_sub; // magnetic_field topic subscriber ကို ကြေညာခြင်း။
-    std::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::NavSatFix>> navsatfix_sub; // navsatfix topic subscriber ကို ကြေညာခြင်း။
-    std::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::Temperature>> temperature_sub; // temperature topic subscriber ကို ကြေညာခြင်း။
-    std::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::RelativeHumidity>> humidity_sub; // relative_humidity topic subscriber ကို ကြေညာခြင်း။
-    std::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::Range>> range_sub; // range topic subscriber ကို ကြေညာခြင်း။
-    std::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::Joy>> joy_sub; // joy topic subscriber ကို ကြေညာခြင်း။
-    std::shared_ptr<rclcpp::Subscription<turtlesim::msg::Color>> color_sub; // color topic subscriber ကို ကြေညာခြင်း။
-    std::shared_ptr<rclcpp::Subscription<nav_msgs::msg::Path>> nav_path_sub; // nav_path topic subscriber ကို ကြေညာခြင်း။
-    std::shared_ptr<rclcpp::Subscription<nav_msgs::msg::Odometry>> odom_filtered_sub; // odom_filtered topic subscriber (odometry message ကို ထပ်သုံး) ကို ကြေညာခြင်း။
-    std::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::PointCloud2>> pointcloud_sub; // pointcloud2 topic subscriber ကို ကြေညာခြင်း။
-    std::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::BatteryState>> battery_voltage_sub; // battery_voltage topic subscriber (battery_state message ကို ထပ်သုံး) ကို ကြေညာခြင်း။
+    // ROS2 topic များကို subscribe လုပ်ဖို့အတွက် shared pointers ကို ကြေညာခြင်း။
+    std::shared_ptr<rclcpp::Subscription<geometry_msgs::msg::Twist>> cmd_vel_sub; 
+    std::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::LaserScan>> scan_sub; 
+    std::shared_ptr<rclcpp::Subscription<turtlesim::msg::Pose>> turtle_pose_sub; 
+    std::shared_ptr<rclcpp::Subscription<nav_msgs::msg::Odometry>> odom_sub; 
+    std::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::JointState>> joint_states_sub; 
+    std::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::Image>> image_sub; 
+    std::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::BatteryState>> battery_sub; 
+    std::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::Imu>> imu_sub; 
+    std::shared_ptr<rclcpp::Subscription<nav_msgs::msg::OccupancyGrid>> map_sub; 
+    std::shared_ptr<rclcpp::Subscription<geometry_msgs::msg::PoseStamped>> goal_pose_sub; 
+    std::shared_ptr<rclcpp::Subscription<tf2_msgs::msg::TFMessage>> tf_sub; 
+    std::shared_ptr<rclcpp::Subscription<diagnostic_msgs::msg::DiagnosticArray>> diag_sub;
+    std::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::LaserEcho>> laser_echo_sub; 
+    std::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::FluidPressure>> fluid_pressure_sub; 
+    std::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::MagneticField>> magnetic_field_sub; 
+    std::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::NavSatFix>> navsatfix_sub; 
+    std::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::Temperature>> temperature_sub; 
+    std::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::RelativeHumidity>> humidity_sub; 
+    std::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::Range>> range_sub; 
+    std::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::Joy>> joy_sub; 
+    std::shared_ptr<rclcpp::Subscription<turtlesim::msg::Color>> color_sub; 
+    std::shared_ptr<rclcpp::Subscription<nav_msgs::msg::Path>> nav_path_sub; 
+    std::shared_ptr<rclcpp::Subscription<nav_msgs::msg::Odometry>> odom_filtered_sub;
+    std::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::PointCloud2>> pointcloud_sub;
+    std::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::BatteryState>> battery_voltage_sub; 
 
     // Data and flags
     QString last_cmd_vel, last_scan, last_turtle_pose, last_odom, last_joint_states, last_image, last_battery; // နောက်ဆုံးရရှိခဲ့တဲ့ topic data တွေကို သိမ်းဖို့ QString variable တွေ ကြေညာခြင်း။
