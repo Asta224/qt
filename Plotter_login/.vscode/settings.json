@@ -1,0 +1,16 @@
+{
+    "files.associations": {
+        "qfile": "cpp",
+        "qapplication": "cpp",
+        "qdebug": "cpp",
+        "qdatetime": "cpp",
+        "qrandomgenerator": "cpp",
+        "qserialport": "cpp",
+        "qtextcursor": "cpp",
+        "qmessagebox": "cpp",
+        "qtmath": "cpp",
+        "qserialportinfo": "cpp",
+        "qmouseevent": "cpp",
+        "qscrollbar": "cpp"
+    }
+}

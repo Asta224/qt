@@ -1,0 +1,8 @@
+/home/thukha/qtcreator/Plotter_login/build/CMakeFiles/Plotter_login.dir
+/home/thukha/qtcreator/Plotter_login/build/CMakeFiles/edit_cache.dir
+/home/thukha/qtcreator/Plotter_login/build/CMakeFiles/rebuild_cache.dir
+/home/thukha/qtcreator/Plotter_login/build/CMakeFiles/Plotter_login_autogen.dir
+/home/thukha/qtcreator/Plotter_login/build/QtPlotter_build/CMakeFiles/QtPlotter.dir
+/home/thukha/qtcreator/Plotter_login/build/QtPlotter_build/CMakeFiles/edit_cache.dir
+/home/thukha/qtcreator/Plotter_login/build/QtPlotter_build/CMakeFiles/rebuild_cache.dir
+/home/thukha/qtcreator/Plotter_login/build/QtPlotter_build/CMakeFiles/QtPlotter_autogen.dir

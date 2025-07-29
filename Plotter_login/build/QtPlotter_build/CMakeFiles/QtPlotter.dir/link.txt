@@ -1,0 +1,2 @@
+/usr/bin/ar qc libQtPlotter.a CMakeFiles/QtPlotter.dir/QtPlotter_autogen/mocs_compilation.cpp.o CMakeFiles/QtPlotter.dir/qcustomplot.cpp.o
+/usr/bin/ranlib libQtPlotter.a
