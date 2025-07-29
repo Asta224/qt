@@ -183,7 +183,8 @@ Unless explicitly stated otherwise within individual project directories, the pr
 
 Have questions, suggestions, or just want to chat about Qt? Don't hesitate to reach out!
 
-* **Maintainer:** [Your Name/GitHub Username]
+* **Maintainer:**    [Asta224]https://github.com/Asta224
+* **Email:**   [tkmt139@gmail.com]           
 * **GitHub Issues:** Feel free to open an issue in this repository for specific project questions or bug reports.
 
 ---
