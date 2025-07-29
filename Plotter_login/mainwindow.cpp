@@ -29,7 +29,7 @@ MainWindow::MainWindow(QWidget *parent)
     animation1 -> setStartValue(ui->loginForm->geometry());
     animation1 -> setEndValue(QRect(197,320,350,200));
     
-  QEasingCurve curve; // easing curve object အသစ်တစ်ခု ဖန်တီးခြင်း (Create a new easing curve object)
+    QEasingCurve curve; // easing curve object အသစ်တစ်ခု ဖန်တီးခြင်း (Create a new easing curve object)
     curve.setType(QEasingCurve::OutBounce); // easing curve အမျိုးအစားကို OutBounce အဖြစ် သတ်မှတ်ခြင်း (Set easing curve type to OutBounce)
     curve.setAmplitude(1.00); // amplitude ကို 1.00 အဖြစ် သတ်မှတ်ခြင်း (Set amplitude to 1.00)
     curve.setOvershoot(1.70); // overshoot ကို 1.70 အဖြစ် သတ်မှတ်ခြင်း (Set overshoot to 1.70)
@@ -50,32 +50,32 @@ void MainWindow::on_loginButton_clicked()
 {
     check_password();
 }
-
+// password စစ်ဆေးသည့် private function ကို အကောင်အထည်ဖော်ခြင်း (Implement the private check_password function)
 void MainWindow::check_password()
 {
-    QString input_name = ui->usernameEdit->text();
-    QString input_pass = ui->passwordEdit->text();
+    QString input_name = ui->usernameEdit->text(); // usernameEdit မှ စာသားကို ရယူခြင်း (Get text from usernameEdit)
+    QString input_pass = ui->passwordEdit->text(); // passwordEdit မှ စာသားကို ရယူခြင်း (Get text from passwordEdit)
 
-    if( input_name == "topic" && input_pass== "topic")
+    if( input_name == "topic" && input_pass== "topic") // username "topic" နှင့် password "topic" ဖြစ်ပါက (If username is "topic" and password is "topic")
     {   
-        this->hide();
-        topic *t_opic = new topic(this);
-        t_opic->show();
+        this->hide(); // လက်ရှိ window ကို ဖျောက်ထားခြင်း (Hide the current window)
+        topic *t_opic = new topic(this); // topic window အသစ်တစ်ခု ဖန်တီးခြင်း (Create a new topic window)
+        t_opic->show(); // topic window ကို ပြသခြင်း (Show the topic window)
 
-    } else if (input_name == "service" && input_pass== "service")
+    } else if (input_name == "service" && input_pass== "service") // username "service" နှင့် password "service" ဖြစ်ပါက (If username is "service" and password is "service")
     {
-        this->hide();
-        service *s_ervice = new service(this);
-        s_ervice->show();
+        this->hide(); // လက်ရှိ window ကို ဖျောက်ထားခြင်း (Hide the current window)
+        service *s_ervice = new service(this); // service window အသစ်တစ်ခု ဖန်တီးခြင်း (Create a new service window)
+        s_ervice->show(); // service window ကို ပြသခြင်း (Show the service window)
 
-    } else if (input_name == "function" && input_pass== "function")
+    } else if (input_name == "function" && input_pass== "function") // username "function" နှင့် password "function" ဖြစ်ပါက (If username is "function" and password is "function")
     {
-        this->hide();
-        function *f_unction = new function(this);
-        f_unction->show();
-    } else
+        this->hide(); // လက်ရှိ window ကို ဖျောက်ထားခြင်း (Hide the current window)
+        function *f_unction = new function(this); // function window အသစ်တစ်ခု ဖန်တီးခြင်း (Create a new function window)
+        f_unction->show(); // function window ကို ပြသခြင်း (Show the function window)
+    } else // အခြား username/password များ ဖြစ်ပါက (For any other username/password)
     {
-        QMessageBox::warning(this, "Error", "Invalid username or password");
+        QMessageBox::warning(this, "Error", "Invalid username or password"); // "Invalid username or password" ဟူသော သတိပေးချက်ကို ပြသခြင်း (Display a warning message "Invalid username or password")
     }
 }
 void MainWindow::clear_and_focus()
